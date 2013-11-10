@@ -7,6 +7,12 @@ body {
   /* The html and body elements cannot have any padding or margin. */
 }
 
+table {
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
