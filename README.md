@@ -1,4 +1,4 @@
 JavaMoney.github.io
 ===================
 
-Umrella Repository for all JavaMoney related projects.
+Umrella Website for JavaMoney related projects.
