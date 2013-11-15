@@ -1,24 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="../../css/github.stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../../css/github.pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../../css/github.print.css" media="print" />
+    <meta charset="utf-8">
+    <title>JavaMoney</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">    
+
+    <!-- Le styles -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/asciidoctor.css" rel="stylesheet">
+    <link href="/css/base.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="/js/html5shiv.js"></script>
     <![endif]-->
-    <title>Javamoney-lib by JavaMoney</title>
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
-
   <body>
-    <div id="container">
-      <div class="inner">
+    <div id="wrap">
+   
+	<!-- Fixed navbar -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="/">JavaMoney</a>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="http://github.com/JavaMoney/">View on GitHub</a></li>
+                <li><a href="feed.xml">Subscribe</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modules <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="ri.html">Moneta (RI)</a></li>
+                    <li><a href="tck.html">TCK</a></li>
+                    <li><a href="lib.html">Library</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Specification</li>
+                    <li><a href="http://jcp.org/en/jsr/detail?id=354">JSR 354 Detail Page</a></li>
+                    <li><a href="https://javamoney.java.net/api/">JSR 354 API on Java.net</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+      </div>
+      <div class="container">	
+	<div class="page-header">
+		<h1>Library</h1>
+	</div>
 
+	<p><em>15 November 2013</em></p>
+
+	<p>
         <header>
-          <h1>Javamoney-lib</h1>
+          <h1>JavaMoney Library</h1>
           <h2>JavaMoney financial library, evolved from JSR 354 development.</h2>
         </header>
 
@@ -34,7 +87,7 @@
           <h3>
 <a name="welcome-to-the-javamoney-financial-library" class="anchor" href="#welcome-to-the-javamoney-financial-library"><span class="octicon octicon-link"></span></a>Welcome to the JavaMoney financial library.</h3>
 
-<p>JavaMoney is a financial library that is built upon JSR 354 (or compatible libraries). Whereas the JSR 354 API and reference implementation provides the fundamentals like monetary amounts, customizable currencies and interfaces for interoperation this library adds additional powerful APIs and SPIs that were implemented during JSR development as a proof of concept:</p>
+<p>JavaMoney-lib is a financial library that is built upon JSR 354 (or compatible libraries). Whereas the JSR 354 API and reference implementation provides the fundamentals like monetary amounts, customizable currencies and interfaces for interoperation this library adds additional powerful APIs and SPIs that were implemented during JSR development as a proof of concept:</p>
 
 <ul>
 <li>
@@ -80,24 +133,26 @@
 
 <p>Having trouble with Pages? Check out the documentation at http://tbd/pages or contact <a href="mailto:support@javamoney.org">support@javamoney.org</a>.</p>
         </section>
+</p>
 
-        <footer>
-          Javamoney-lib is maintained by <a href="https://github.com/JavaMoney">JavaMoney</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
+	<hr>
 
-                  <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("org.javamoney");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
+		</div>
+		<div id="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; 2013 | Mixed with <a href="http://twitter.github.com/bootstrap/">Bootstrap v2.3.1</a> | Baked with <a href="http://jbake.org">JBake v2.2.0</a></p>
       </div>
     </div>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery-1.9.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/run_prettify.js"></script>
+    
   </body>
 </html>

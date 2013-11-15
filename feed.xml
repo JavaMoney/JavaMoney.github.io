@@ -1,139 +1,69 @@
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JBake</title>
-    <link>http://jbake.org</link>
-    <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
-    <description>JBake Bootstrap Template</description>
+    <title>JavaMoney</title>
+    <link>http://javamoney.org</link>
+    <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Sa, 9 Nov 2013 19:20:53 +0100</pubDate>
-    <lastBuildDate>Sa, 9 Nov 2013 19:20:53 +0100</lastBuildDate>
+    <pubDate>Fr, 15 Nov 2013 23:56:00 +0100</pubDate>
+    <lastBuildDate>Fr, 15 Nov 2013 23:56:00 +0100</lastBuildDate>
 
     <item>
-      <title>Fourth Post</title>
-      <link>http://jbake.org\blog\2013\fourth-post.html</link>
-      <pubDate>Do, 17 Okt 2013 00:00:00 +0200</pubDate>
-      <guid isPermaLink="false">\blog\2013\fourth-post.html</guid>
-      	<description>
-	&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://example.org&quot;&gt;http://example.org&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://example.org&quot;&gt;Example.org&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu,
-mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo
-ligula. Vestibulum tristique odio ut risus ultricies a hendrerit quam iaculis. Duis tempor elit sit amet
-ligula vehicula et iaculis sem placerat. Fusce dictum, metus at volutpat lacinia, elit massa auctor risus,
-id auctor arcu enim eu augue. Donec ultrices turpis in mi imperdiet ac venenatis sapien sodales. In
-consequat imperdiet nunc quis bibendum. Nulla semper, erat quis ornare tristique, lectus massa posuere
-libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-	</description>
-    </item>
-    <item>
-      <title>Third Post</title>
-      <link>http://jbake.org\blog\2013\third-post.html</link>
-      <pubDate>Do, 26 Sep 2013 00:00:00 +0200</pubDate>
-      <guid isPermaLink="false">\blog\2013\third-post.html</guid>
-      	<description>
-	&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://example.org&quot;&gt;http://example.org&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://example.org&quot;&gt;Example.org&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu,
-mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo
-ligula. Vestibulum tristique odio ut risus ultricies a hendrerit quam iaculis. Duis tempor elit sit amet
-ligula vehicula et iaculis sem placerat. Fusce dictum, metus at volutpat lacinia, elit massa auctor risus,
-id auctor arcu enim eu augue. Donec ultrices turpis in mi imperdiet ac venenatis sapien sodales. In
-consequat imperdiet nunc quis bibendum. Nulla semper, erat quis ornare tristique, lectus massa posuere
-libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-	</description>
-    </item>
-    <item>
-      <title>Second Post</title>
-      <link>http://jbake.org\blog\2013\second-post.html</link>
-      <pubDate>So, 25 Aug 2013 00:00:00 +0200</pubDate>
-      <guid isPermaLink="false">\blog\2013\second-post.html</guid>
-      	<description>
-	&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://example.org&quot;&gt;http://example.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://example.org&quot;&gt;Example.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu, 
-mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo 
-ligula. Vestibulum tristique odio ut risus ultricies a hendrerit quam iaculis. Duis tempor elit sit amet 
-ligula vehicula et iaculis sem placerat. Fusce dictum, metus at volutpat lacinia, elit massa auctor risus, 
-id auctor arcu enim eu augue. Donec ultrices turpis in mi imperdiet ac venenatis sapien sodales. In 
-consequat imperdiet nunc quis bibendum. Nulla semper, erat quis ornare tristique, lectus massa posuere 
-libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&lt;/p&gt;
-
-	</description>
-    </item>
-    <item>
-      <title>First Post</title>
-      <link>http://jbake.org\blog\2013\first-post.html</link>
-      <pubDate>Mi, 24 Jul 2013 00:00:00 +0200</pubDate>
-      <guid isPermaLink="false">\blog\2013\first-post.html</guid>
+      <title>Public Draft</title>
+      <link>http://javamoney.org\blog\2013\pdr.html</link>
+      <pubDate>Do, 24 Okt 2013 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">\blog\2013\pdr.html</guid>
       	<description>
 	
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://example.org&quot;&gt;http://example.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://example.org&quot;&gt;Example.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;header&gt;
+	&lt;h1&gt;Public Draft Review&lt;/h1&gt;
+&lt;/header&gt;
 
-&lt;p&gt;Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu, 
-mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo 
-ligula. Vestibulum tristique odio ut risus ultricies a hendrerit quam iaculis. Duis tempor elit sit amet 
-ligula vehicula et iaculis sem placerat. Fusce dictum, metus at volutpat lacinia, elit massa auctor risus, 
-id auctor arcu enim eu augue. Donec ultrices turpis in mi imperdiet ac venenatis sapien sodales.&lt;/p&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
 
-&lt;pre class=&quot;prettyprint&quot;&gt;
-&lt;code&gt;
-package org.jbake;
 
-public class Oven {
-	public static void main(String[] args) {
-		System.out.print(&quot;Baking!&quot;);
-  }
-}
-&lt;/code&gt;
-&lt;/pre&gt;
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;Public Draft&lt;/h3&gt;
 
-&lt;p&gt;In consequat imperdiet nunc quis bibendum. Nulla semper, erat quis ornare tristique, lectus massa posuere 
-libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&lt;/p&gt;
+	&lt;p&gt;
+		The JSR 354 &lt;b&gt;Public Review&lt;/b&gt; started on JCP.org. Check out the &lt;a
+			href=&quot;http://jcp.org/aboutJava/communityprocess/pr/jsr354/index.html&quot;&gt;PR
+			Download Page&lt;/a&gt;
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
+    <item>
+      <title>Early Draft</title>
+      <link>http://javamoney.org\blog\2013\edr.html</link>
+      <pubDate>Mi, 1 Mai 2013 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">\blog\2013\edr.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Early Draft Review&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;Early Draft&lt;/h3&gt;
+
+	&lt;p&gt;
+		The JSR 354 &lt;b&gt;Early Draft&lt;/b&gt; started on JCP.org. Check out the &lt;a
+			href=&quot;http://jcp.org/aboutJava/communityprocess/edr/jsr354/index.html&quot;&gt;EDR
+			Download Page&lt;/a&gt;
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
 
 	</description>
     </item>
