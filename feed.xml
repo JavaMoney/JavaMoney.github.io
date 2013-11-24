@@ -6,9 +6,38 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>So, 24 Nov 2013 17:27:12 +0100</pubDate>
-    <lastBuildDate>So, 24 Nov 2013 17:27:12 +0100</lastBuildDate>
+    <pubDate>So, 24 Nov 2013 17:50:27 +0100</pubDate>
+    <lastBuildDate>So, 24 Nov 2013 17:50:27 +0100</lastBuildDate>
 
+    <item>
+      <title>Gimme Shelter</title>
+      <link>http://javamoney.org\blog\2013\gimmeshelter.html</link>
+      <pubDate>So, 24 Nov 2013 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">\blog\2013\gimmeshelter.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;JavaMoney Shelter&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;Shelter Opened&lt;/h3&gt;
+
+	&lt;p&gt;
+		The &lt;b&gt;JavaMoney Shelter&lt;/b&gt; opened for incubating modules and those in need of adoption.&lt;br&gt;
+		Check out &lt;a
+			href=&quot;../../shelter.html&quot;&gt;javamoney-shelter&lt;/a&gt; to &lt;b&gt;Adopt-a-JSR&lt;/b&gt; and related projects before &lt;b&gt;Christmas&lt;/b&gt;;-)
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
     <item>
       <title>Public Draft</title>
       <link>http://javamoney.org\blog\2013\pdr.html</link>
