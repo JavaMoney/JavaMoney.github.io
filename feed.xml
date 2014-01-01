@@ -6,9 +6,20 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>So, 24 Nov 2013 17:50:27 +0100</pubDate>
-    <lastBuildDate>So, 24 Nov 2013 17:50:27 +0100</lastBuildDate>
+    <pubDate>Mi, 1 Jan 2014 21:57:22 +0100</pubDate>
+    <lastBuildDate>Mi, 1 Jan 2014 21:57:22 +0100</lastBuildDate>
 
+    <item>
+      <title>Events &amp;amp; History</title>
+      <link>http://javamoney.org\blog.html</link>
+      <pubDate>Mi, 1 Jan 2014 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">\blog.html</guid>
+      	<description>
+	
+      
+
+	</description>
+    </item>
     <item>
       <title>Gimme Shelter</title>
       <link>http://javamoney.org\blog\2013\gimmeshelter.html</link>
@@ -41,7 +52,7 @@
     <item>
       <title>Public Draft</title>
       <link>http://javamoney.org\blog\2013\pdr.html</link>
-      <pubDate>Do, 24 Oct 2013 00:00:00 +0200</pubDate>
+      <pubDate>Do, 24 Okt 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">\blog\2013\pdr.html</guid>
       	<description>
 	
@@ -70,7 +81,7 @@
     <item>
       <title>Early Draft</title>
       <link>http://javamoney.org\blog\2013\edr.html</link>
-      <pubDate>Mi, 1 May 2013 00:00:00 +0200</pubDate>
+      <pubDate>Mi, 1 Mai 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">\blog\2013\edr.html</guid>
       	<description>
 	

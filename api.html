@@ -28,7 +28,7 @@
   </head>
   <body>
     <div id="wrap">
-   	
+   
 	<!-- Fixed navbar -->
       <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
@@ -72,40 +72,83 @@
       </div>
       <div class="container">	
 	<div class="page-header">
-		<h1>Third Post</h1>
+		<h1>Specification (JSR 354)</h1>
 	</div>
 
-	<p><em>26 September 2013</em></p>
+	<p><em>01 Januar 2014</em></p>
 
-	<p><div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://example.org">http://example.org</a></p>
-</li>
-<li>
-<p><a href="http://example.org">Example.org</a></p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu,
-mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo
-ligula. Vestibulum tristique odio ut risus ultricies a hendrerit quam iaculis. Duis tempor elit sit amet
-ligula vehicula et iaculis sem placerat. Fusce dictum, metus at volutpat lacinia, elit massa auctor risus,
-id auctor arcu enim eu augue. Donec ultrices turpis in mi imperdiet ac venenatis sapien sodales. In
-consequat imperdiet nunc quis bibendum. Nulla semper, erat quis ornare tristique, lectus massa posuere
-libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.</p>
-</div>
-</div>
-</div></p>
+	<p>
+<h2>Money &amp; Currency API</h2>
+
+<section id="downloads" class="clearfix">
+	<a href="https://github.com/JavaMoney/jsr354-api/zipball/master"
+		id="download-zip" class="button"><span>Download .zip</span></a> <a
+		href="https://github.com/JavaMoney/jsr354-api/tarball/master"
+		id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+	<a href="https://github.com/JavaMoney/jsr354-api" id="view-on-github"
+		class="button"><span>View on GitHub</span></a>
+</section>
+
+<hr>
+
+<section id="main_content">
+	<h3>
+		<a name="what-is-jsr-354"
+			class="anchor"
+			href="#what-is-jsr-354"><span
+			class="octicon octicon-link"></span></a>What is JSR 354?
+	</h3>
+
+	<p>JSR 354 provides a portable and extendible framework for handling of Money &amp; Currency. The API
+	models monetary amounts and currencies in a platform independent and portable way, including well
+	defined extension points. It's API defines a simple yet flexible contract that enables users to choose
+	the implementation matching their target requirements best and having full control about the numeric state
+	at all stages during monetary processing. <br/>
+	The JSR is lead by Anatole Tresch (Credit Suisse) (<a href="https://github.com/atsticks" class="user-mention">@atsticks</a>).
+	<br/>You can access the API by adding the following Maven
+	dependencies:</p>
+
+<pre><code>&lt;dependency&gt;
+  &lt;groupId&gt;javax.money&lt;/groupId&gt;
+  &lt;artifactId&gt;money-api&lt;/artifactId&gt;
+  &lt;version&gt;0.8-SNAPSHOT&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+
+<p>Though it is possible to compile your programs completely with the API, in most cases, you will also have to 
+add an implementation, e.g. the <a href="ri.html">Moneta</a> reference implementation.</p>
+
+	<h3>
+		<a name="overview" class="anchor"
+			href="#overview"><span
+			class="octicon octicon-link"></span></a>Overview
+	</h3>
+
+	<p>
+	    The API basically consists of three packages:
+		<ul>
+		  <li><b>javax.money</b> contains the main artifacts of the API, e.g. the interfaces for <code>MonetaryAmount, CurrencyUnit, MonetaryOPerator, MonetaryQuery</code>, and the
+		  accessor singletons for amounts, currencies and roundings.</li>
+		  <li><b>javax.money.format</b> contains the formatting logic, which has some similarities with <code>java.text</code> but relies
+		  more on immutable artifacts and builders.</li>
+		  <li><b>javax.money.spi</b> contains the service provider interfaces and the bootstrap logic, which allows to configure the API
+		  also within EE contexts (e.g. running it within a CDI container).</li>
+		</ul>
+	</p>
+
+	<h3>
+		<a name="documentation" class="anchor" href="#documentation"><span
+			class="octicon octicon-link"></span></a>Documentation
+	</h3>
+
+	<p>
+		Since it a Java Specification Request check out out JSR's specification from the <a href="http://jcp.org/en/jsr/detail?id=354">JSR 354 Detail Page</a>.
+	</p>
+</section>
+</p>
 
 	<hr>
-	
+
 		</div>
 		<div id="push"></div>
     </div>
