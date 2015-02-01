@@ -6,9 +6,101 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Sa, 14 Jun 2014 19:50:50 +0200</pubDate>
-    <lastBuildDate>Sa, 14 Jun 2014 19:50:50 +0200</lastBuildDate>
+    <pubDate>So, 1 Feb 2015 17:45:43 +0100</pubDate>
+    <lastBuildDate>So, 1 Feb 2015 17:45:43 +0100</lastBuildDate>
 
+    <item>
+      <title>DevoXX 2014</title>
+      <link>http://javamoney.org\blog\2014\devoxx14.html</link>
+      <pubDate>Mi, 12 Nov 2014 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">\blog\2014\devoxx14.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;DevoXX BE 2014&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;JSR 354 at Hackergarten &lt;/h3&gt;
+
+	&lt;p&gt;
+		Anatole hosted a &lt;b&gt;Hackergarten&lt;/b&gt; session on JSR 354 at &lt;a
+			href=&quot;https://java.net/projects/hackgarten/pages/Home&quot;&gt;DevoXX BE 2014&lt;/a&gt;.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
+    <item>
+      <title>JavaOne 2014</title>
+      <link>http://javamoney.org\blog\2014\javaone14.html</link>
+      <pubDate>Di, 30 Sep 2014 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">\blog\2014\javaone14.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;JavaOne 2014&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;JSR 354 at Hackergarten &lt;/h3&gt;
+
+	&lt;p&gt;
+		Anatole hosted a &lt;b&gt;Hackergarten&lt;/b&gt; session on JSR 354 at &lt;a
+			href=&quot;https://blogs.oracle.com/javaone/entry/hackergarten_at_javaone_2014&quot;&gt;JavaOne 2014&lt;/a&gt;.
+	&lt;/p&gt;
+	
+	&lt;h3&gt;Bitcoin Panel about JavaMoney&lt;/h3&gt;
+
+	&lt;p&gt;
+		Two leading JavaMoney contributors (though Anatole must have caught a bit too much &quot;Java Feaver&quot; in the Hackergarten it seems;-) and Payward COO Micchael Gronager were on an expert panel on &lt;a
+			href=&quot;https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=6297&quot;&gt;Java and Digital Currencies, Friend or Foe?&lt;/a&gt; at JavaOne 2014.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
+    <item>
+      <title>Public Review 2</title>
+      <link>http://javamoney.org\blog\2014\pr2.html</link>
+      <pubDate>Mi, 26 Mär 2014 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">\blog\2014\pr2.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Public Review 2&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;Public Review 2&lt;/h3&gt;
+
+	&lt;p&gt;
+		The JSR 354 &lt;b&gt;Public Review 2&lt;/b&gt; started on JCP.org. Check out the &lt;a
+			href=&quot;https://jcp.org/aboutJava/communityprocess/pr/jsr354/index2.html&quot;&gt;PR 2
+			Download Page&lt;/a&gt;
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
     <item>
       <title>Events &amp;amp; History</title>
       <link>http://javamoney.org\blog.html</link>
@@ -52,7 +144,7 @@
     <item>
       <title>Public Draft</title>
       <link>http://javamoney.org\blog\2013\pdr.html</link>
-      <pubDate>Do, 24 Oct 2013 00:00:00 +0200</pubDate>
+      <pubDate>Do, 24 Okt 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">\blog\2013\pdr.html</guid>
       	<description>
 	
@@ -81,7 +173,7 @@
     <item>
       <title>Early Draft</title>
       <link>http://javamoney.org\blog\2013\edr.html</link>
-      <pubDate>Mi, 1 May 2013 00:00:00 +0200</pubDate>
+      <pubDate>Mi, 1 Mai 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">\blog\2013\edr.html</guid>
       	<description>
 	
