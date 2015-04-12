@@ -6,14 +6,41 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Thu, 12 Mar 2015 19:47:16 +0100</pubDate>
-    <lastBuildDate>Thu, 12 Mar 2015 19:47:16 +0100</lastBuildDate>
+    <pubDate>Sun, 12 Apr 2015 18:34:58 +0200</pubDate>
+    <lastBuildDate>Sun, 12 Apr 2015 18:34:58 +0200</lastBuildDate>
 
     <item>
+      <title>Proposed Final Draft</title>
+      <link>http://javamoney.orgblog/2015/pfd.html</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">blog/2015/pfd.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Proposed Final Draft&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;p&gt;
+		The JSR 354 &lt;b&gt;Proposed Final Draft&lt;/b&gt; started on JCP.org. Check out the &lt;a
+			href=&quot;https://jcp.org/aboutJava/communityprocess/pfd/jsr354/index.html&quot;&gt;PFD
+			Download Page&lt;/a&gt;
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
+    <item>
       <title>DevoXX 2014</title>
-      <link>http://javamoney.org\blog\2014\devoxx14.html</link>
+      <link>http://javamoney.orgblog/2014/devoxx14.html</link>
       <pubDate>Wed, 12 Nov 2014 00:00:00 +0100</pubDate>
-      <guid isPermaLink="false">\blog\2014\devoxx14.html</guid>
+      <guid isPermaLink="false">blog/2014/devoxx14.html</guid>
       	<description>
 	
 
@@ -39,9 +66,9 @@
     </item>
     <item>
       <title>JavaOne 2014</title>
-      <link>http://javamoney.org\blog\2014\javaone14.html</link>
+      <link>http://javamoney.orgblog/2014/javaone14.html</link>
       <pubDate>Tue, 30 Sep 2014 00:00:00 +0200</pubDate>
-      <guid isPermaLink="false">\blog\2014\javaone14.html</guid>
+      <guid isPermaLink="false">blog/2014/javaone14.html</guid>
       	<description>
 	
 
@@ -74,9 +101,9 @@
     </item>
     <item>
       <title>Public Review 2</title>
-      <link>http://javamoney.org\blog\2014\pr2.html</link>
+      <link>http://javamoney.orgblog/2014/pr2.html</link>
       <pubDate>Wed, 26 Mar 2014 00:00:00 +0100</pubDate>
-      <guid isPermaLink="false">\blog\2014\pr2.html</guid>
+      <guid isPermaLink="false">blog/2014/pr2.html</guid>
       	<description>
 	
 
@@ -102,21 +129,10 @@
 	</description>
     </item>
     <item>
-      <title>Events &amp;amp; History</title>
-      <link>http://javamoney.org\blog.html</link>
-      <pubDate>Wed, 1 Jan 2014 00:00:00 +0100</pubDate>
-      <guid isPermaLink="false">\blog.html</guid>
-      	<description>
-	
-      
-
-	</description>
-    </item>
-    <item>
       <title>Gimme Shelter</title>
-      <link>http://javamoney.org\blog\2013\gimmeshelter.html</link>
+      <link>http://javamoney.orgblog/2013/gimmeshelter.html</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0100</pubDate>
-      <guid isPermaLink="false">\blog\2013\gimmeshelter.html</guid>
+      <guid isPermaLink="false">blog/2013/gimmeshelter.html</guid>
       	<description>
 	
 
@@ -143,9 +159,9 @@
     </item>
     <item>
       <title>Public Draft</title>
-      <link>http://javamoney.org\blog\2013\pdr.html</link>
+      <link>http://javamoney.orgblog/2013/pdr.html</link>
       <pubDate>Thu, 24 Oct 2013 00:00:00 +0200</pubDate>
-      <guid isPermaLink="false">\blog\2013\pdr.html</guid>
+      <guid isPermaLink="false">blog/2013/pdr.html</guid>
       	<description>
 	
 
@@ -172,9 +188,9 @@
     </item>
     <item>
       <title>Early Draft</title>
-      <link>http://javamoney.org\blog\2013\edr.html</link>
+      <link>http://javamoney.orgblog/2013/edr.html</link>
       <pubDate>Wed, 1 May 2013 00:00:00 +0200</pubDate>
-      <guid isPermaLink="false">\blog\2013\edr.html</guid>
+      <guid isPermaLink="false">blog/2013/edr.html</guid>
       	<description>
 	
 
