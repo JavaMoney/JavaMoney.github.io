@@ -76,7 +76,7 @@
 		<h1>Specification (JSR 354)</h1>
 	</div>
 
-	<p><em>24 December 2014</em></p>
+	<p><em>31 May 2015</em></p>
 
 	<p>
 <h2>Money &amp; Currency API</h2>
@@ -112,7 +112,7 @@
 <pre><code>&lt;dependency&gt;
   &lt;groupId&gt;javax.money&lt;/groupId&gt;
   &lt;artifactId&gt;money-api&lt;/artifactId&gt;
-  &lt;version&gt;1.0-RC1&lt;/version&gt;
+  &lt;version&gt;1.0&lt;/version&gt;
 &lt;/dependency&gt;
 </code></pre>
 
@@ -136,10 +136,11 @@ The release artifacts should be accessible from the following repositories:
 	</h3>
 
 	<p>
-	    The API basically consists of three packages:
+	    The API basically consists of four packages:
 		<ul>
 		  <li><b>javax.money</b> contains the main artifacts of the API, e.g. the interfaces for <code>MonetaryAmount, CurrencyUnit, MonetaryOperator, MonetaryQuery</code>, and the
 		  accessor singletons for amounts, currencies and roundings.</li>
+		  <li><b>javax.money.convert</b> contains currency conversion logic.</li>
 		  <li><b>javax.money.format</b> contains the formatting logic, which has some similarities with <code>java.text</code> but relies
 		  more on immutable artifacts and builders.</li>
 		  <li><b>javax.money.spi</b> contains the service provider interfaces and the bootstrap logic, which allows to configure the API
