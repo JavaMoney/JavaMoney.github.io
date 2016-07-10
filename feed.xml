@@ -6,9 +6,71 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Sun, 31 May 2015 19:48:12 +0200</pubDate>
-    <lastBuildDate>Sun, 31 May 2015 19:48:12 +0200</lastBuildDate>
+    <pubDate>Mon, 11 Jul 2016 01:04:19 +0200</pubDate>
+    <lastBuildDate>Mon, 11 Jul 2016 01:04:19 +0200</lastBuildDate>
 
+    <item>
+      <title>Moneta Release 1.1</title>
+      <link>http://javamoney.orgblog/2016/moneta11.html</link>
+      <pubDate>Fri, 20 May 2016 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2016/moneta11.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Service Release&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;RI Release 1.1&lt;/h3&gt;
+
+	&lt;p&gt;
+		A Service Release of the JSR 354 RIs was released yesterday.&lt;br&gt;
+		Fixing a few issues, especially differences between Moneta and Moneta-BP were resolved. See  &lt;a
+			href=&quot;https://java.net/jira/browse/JAVAMONEY-124?jql=project%20%3D%20JAVAMONEY%20AND%20fixVersion%20%3D%201.1%20ORDER%20BY%20updated%20DESC%2C%20priority%20DESC%2C%20created%20ASC&quot;&gt;JIRA&lt;/a&gt; for further details. And check the MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-ri&quot;&gt;JSR 354 RI&lt;/a&gt; GitHub repository.&lt;br&gt;
+	&lt;/p&gt;&lt;p&gt;
+	Thanks everyone who helped publish this release.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
+    <item>
+      <title>API Release 1.0.1</title>
+      <link>http://javamoney.orgblog/2016/api101.html</link>
+      <pubDate>Tue, 16 Feb 2016 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">blog/2016/api101.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Patch Release&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;API Release 1.0.1&lt;/h3&gt;
+
+	&lt;p&gt;
+		A small patch of JSR 354 API was released yesterday.&lt;br&gt;
+		The major fix was building the Java 7 (BP) API with Java 7 instead of Java 8. To ensure there are no class version compatibility problems running API-BP and Moneta-BP under Java 7. This patch release 1.0.1 of JSR 354 was be made available on popular Maven repositories.&lt;br&gt;
+		There are no structural API changes nor JavaDoc, etc. therefore no MR was necessary for this and jcp.org won&apos;t be updated. Check the MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-api&quot;&gt;JSR 354 API&lt;/a&gt; GitHub repository.&lt;br&gt;
+	&lt;/p&gt;&lt;p&gt;
+	Thanks everyone who helped publish this release.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
     <item>
       <title>Final Release</title>
       <link>http://javamoney.orgblog/2015/final.html</link>

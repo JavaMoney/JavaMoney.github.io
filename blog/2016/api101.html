@@ -28,7 +28,7 @@
   </head>
   <body>
     <div id="wrap">
-   
+   	
 	<!-- Fixed navbar -->
       <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
@@ -74,44 +74,37 @@
       </div>
       <div class="container">	
 	<div class="page-header">
-		<h1>About</h1>
+		<h1>API Release 1.0.1</h1>
 	</div>
 
-	<p><em>24 October 2013</em></p>
+	<p><em>16 February 2016</em></p>
 
-	<p>          <h2>What is JavaMoney?</h2>
-          <section id="downloads">
-          <img src="img/javamoney_cup.jpg" padding="5px" height="120px" width="120px"></td>
-          </section>
-          <section id="main_content">
-	          <p>JavaMoney is the new monetary API for the Java&trade; Platform as well as related projects and libraries.
-	          Whereas the API (JSR 354) provides a portable and extendible API for handling of Money &amp; Currency
-	          models, Moneta provides a production ready reference implementation.<br/>
-	          The JavaMoney libraries add additional functionalities that were built on top of the API such as</p>
-	          <ul>
-	          <li>Currency conversion</li>
-	          <li>Currency mapping and namespaces</li>
-	          <li>Basic financial calculations</li>
-	          <li>Extended formatting (usable for arbitrary types)</li>
-	          <li>Region API, allowing to organize regions, countries and territories as a forest of region trees</li>
-	          <li>Validity API, allowing to manage the validity of arbitrary data and relations related to time (history)</li>
-	          </ul>
-			<p>
-		Different people have contributed to this project. During the
-		development of JSR 354, <a href="https://github.com/atsticks"
-			class="user-mention">@atsticks</a> and <a
-			href="https://github.com/keilw" class="user-mention">@keilw</a>
-		founded this project and were also the main contributors.
-	</p>.
-        </section>
+	<p>
 
-        <hr>
+<header>
+	<h1>Patch Release</h1>
+</header>
 
-     
+<section id="downloads" class="clearfix"></section>
+
+
+<section id="main_content">
+	<h3>API Release 1.0.1</h3>
+
+	<p>
+		A small patch of JSR 354 API was released yesterday.<br>
+		The major fix was building the Java 7 (BP) API with Java 7 instead of Java 8. To ensure there are no class version compatibility problems running API-BP and Moneta-BP under Java 7. This patch release 1.0.1 of JSR 354 was be made available on popular Maven repositories.<br>
+		There are no structural API changes nor JavaDoc, etc. therefore no MR was necessary for this and jcp.org won't be updated. Check the MavenCentral status badge in the <a href="http://github.com/JavaMoney/jsr354-api">JSR 354 API</a> GitHub repository.<br>
+	</p><p>
+	Thanks everyone who helped publish this release.
+	</p>
+</section>
+
+
 </p>
 
 	<hr>
-
+	
 		</div>
 		<div id="push"></div>
     </div>
