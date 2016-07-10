@@ -6,8 +6,8 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Mon, 11 Jul 2016 01:04:19 +0200</pubDate>
-    <lastBuildDate>Mon, 11 Jul 2016 01:04:19 +0200</lastBuildDate>
+    <pubDate>Mon, 11 Jul 2016 01:10:37 +0200</pubDate>
+    <lastBuildDate>Mon, 11 Jul 2016 01:10:37 +0200</lastBuildDate>
 
     <item>
       <title>Moneta Release 1.1</title>
@@ -28,8 +28,8 @@
 	&lt;h3&gt;RI Release 1.1&lt;/h3&gt;
 
 	&lt;p&gt;
-		A Service Release of the JSR 354 RIs was released yesterday.&lt;br&gt;
-		Fixing a few issues, especially differences between Moneta and Moneta-BP were resolved. See  &lt;a
+		A Service Release of the JSR 354 RIs was released today.&lt;br&gt;
+		Fixing a few issues, e.g. differences between Moneta and Moneta-BP. See  &lt;a
 			href=&quot;https://java.net/jira/browse/JAVAMONEY-124?jql=project%20%3D%20JAVAMONEY%20AND%20fixVersion%20%3D%201.1%20ORDER%20BY%20updated%20DESC%2C%20priority%20DESC%2C%20created%20ASC&quot;&gt;JIRA&lt;/a&gt; for further details. And check the MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-ri&quot;&gt;JSR 354 RI&lt;/a&gt; GitHub repository.&lt;br&gt;
 	&lt;/p&gt;&lt;p&gt;
 	Thanks everyone who helped publish this release.
