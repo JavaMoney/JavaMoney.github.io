@@ -42,28 +42,32 @@
             <div class="nav-collapse collapse">
               <ul class="nav">
                 <li><a href="/archive.html">Blog</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="http://github.com/JavaMoney/">View on GitHub</a></li>
-                <li><a href="feed.xml">Subscribe</a></li>
+                <li><a href="https://github.com/JavaMoney/" target="_blank">View on GitHub</a></li>
+                <li><a href="feed.xml" target="_blank">RSS Subscribe</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li class="nav-header">JSR 354</li>
                     <li><a href="api.html">Specification (API)</a></li>
+                    <li><a href="apidocs/">Specification (JavaDoc)</a></li>
                     <li class="divider"></li>
-                    <li><a href="ri.html">Moneta (Reference Implementation)</a></li>
-                    <li><a href="tck.html">TCK (Technical Compatibility Kit)</a></li>
+                    <li><a href="ri.html">Moneta Reference Implementation (RI)</a></li>
+                    <li><a href="tck.html">Technical Compatibility Kit (TCK)</a></li>
+                    <li class="divider"></li>
+                    <li><a href="https://github.com/JavaMoney/jsr354-api-bp" target="_blank">Specification (API): Backport to Java 6 (API BP)</a></li>
+                    <li><a href="https://github.com/JavaMoney/jsr354-ri-bp" target="_blank">Moneta Reference Implementation: Backport to Java 7 (RI BP)</a></li>
                     <li class="divider"></li>
                     <li class="nav-header">JavaMoney</li>
                     <li><a href="lib.html">Library</a></li>
                     <li><a href="midas.html">Midas</a></li>
-                     <li><a href="https://github.com/JavaMoney/javamoney-examples">Examples</a></li>
+                    <li><a href="https://github.com/JavaMoney/javamoney-examples" target="_blank">Examples</a></li>
+                    <li><a href="http://jadira.sourceforge.net/usertype.extended/" target="_blank">Jadira Usertype Extended (Hibernate support)</a></li>
                     <li class="nav-header">Sandbox</li>
                     <li><a href="shelter.html">Shelter</a></li>
                     <li class="divider"></li>
                     <li class="nav-header">Additional Information</li>
-                    <li><a href="http://jcp.org/en/jsr/detail?id=354">JSR 354 Detail Page</a></li>
-                    <li><a href="http://javamoney.java.net">JSR 354 Project on Java.net</a></li>
+                    <li><a href="https://jcp.org/en/jsr/detail?id=354" target="_blank">JSR 354 Detail Page</a></li>
+                    <li><a href="https://javamoney.java.net" target="_blank">JSR 354 Project on Java.net</a></li>
                     <!-- <li><a href="blog.html">Blog (Events &amp; History)</a></li></li> -->
                   </ul>
                 </li>
@@ -82,23 +86,39 @@
 	    <section id="downloads" class="clearfix">
 			<img src="img/javamoney_cup.jpg"></td>
 	    </section>
-	
-	    <section id="main_content">
+        <section id="main_content">
+	        <h3>What is JavaMoney?</h3>
+    	    <p>JavaMoney is the new monetary API for the Java&trade; Platform as well as related projects and libraries.
+    	    Whereas the API (JSR 354) provides a portable and extensible API for handling of Money &amp; Currency
+    	    models, Moneta provides a production ready reference implementation.<br/>
+    	    The JavaMoney libraries add additional functionalities that were built on top of the API such as</p>
+    	    <ul>
+    	        <li>Currency conversion</li>
+    	        <li>Currency mapping and namespaces</li>
+    	        <li>Basic financial calculations</li>
+    	        <li>Extended formatting (usable for arbitrary types)</li>
+    	        <li>Region API, allowing to organize regions, countries and territories as a forest of region trees</li>
+    	        <li>Validity API, allowing to manage the validity of arbitrary data and relations related to time (history)</li>
+    	    </ul>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZE3SLcKKbPo" frameborder="0" allowfullscreen></iframe>
+
+    		<p>
 	        <h3>JSR 354 Specification (API)</h3>
 			<p>
-			 Find more details on the <a href="api.html">API/specification</a>.
+			 Find more details on the API/specification <a href="api.html">here</a>.
 			</p>
 			<h3>JSR 354 Reference Implementation (RI)</h3>
 			<p>
-			 Check out the <a href="ri.html">reference implementation</a>.
+			 Check out the reference implementation <a href="ri.html">here</a>.
 			</p>
 			<h3>Technical Compatibility Kit (TCK)</h3>
 			<p>
-			 Want to write your own implementation of JSR 354? Then you should also checkout and configure the <a href="tck.html">TCK</a>.
+			 Want to write your own implementation of JSR 354? Then you should also checkout and configure the TCK. Start <a href="tck.html">here</a>.
 			</p>
 			<h3>JavaMoney Financial Library</h3>
 			<p>
-			 Find out more about the <a href="lib.html">JavaMoney Financial Library</a>.
+			 Find out more about the JavaMoney Financial Library <a href="lib.html">here</a>.
 			</p>
 		</section>
 	<hr/>
@@ -109,7 +129,12 @@
     
     <div id="footer">
       <div class="container">
-        <p class="muted credit">&copy; 2016 | Mixed with <a href="http://twitter.github.com/bootstrap/">Bootstrap v2.3.1</a> | Baked with <a href="http://jbake.org">JBake v2.3.2</a></p>
+        <p>Having trouble with JavaMoney?
+        Ask your question at <a href="https://stackoverflow.com/questions/tagged/java-money+jsr354" target="_blank">StackOverflow</a> with tag <code>java-money</code>.
+        Join the Gitter chat <a href="https://gitter.im/orgs/JavaMoney/rooms" target="_blank"><img src="https://badges.gitter.im/Join%20Chat.svg"/></a>.
+        Or contact <a href="mailto:support@javamoney.org">support@javamoney.org</a>
+        </p>
+        <p class="muted credit">&copy; 2016 | Mixed with <a href="http://twitter.github.com/bootstrap/">Bootstrap v2.3.1</a> | Baked with <a href="http://jbake.org">JBake v2.5.0</a></p>
       </div>
     </div>
     

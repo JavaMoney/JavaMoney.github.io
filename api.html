@@ -42,28 +42,32 @@
             <div class="nav-collapse collapse">
               <ul class="nav">
                 <li><a href="/archive.html">Blog</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="http://github.com/JavaMoney/">View on GitHub</a></li>
-                <li><a href="feed.xml">Subscribe</a></li>
+                <li><a href="https://github.com/JavaMoney/" target="_blank">View on GitHub</a></li>
+                <li><a href="feed.xml" target="_blank">RSS Subscribe</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li class="nav-header">JSR 354</li>
                     <li><a href="api.html">Specification (API)</a></li>
+                    <li><a href="apidocs/">Specification (JavaDoc)</a></li>
                     <li class="divider"></li>
-                    <li><a href="ri.html">Moneta (Reference Implementation)</a></li>
-                    <li><a href="tck.html">TCK (Technical Compatibility Kit)</a></li>
+                    <li><a href="ri.html">Moneta Reference Implementation (RI)</a></li>
+                    <li><a href="tck.html">Technical Compatibility Kit (TCK)</a></li>
+                    <li class="divider"></li>
+                    <li><a href="https://github.com/JavaMoney/jsr354-api-bp" target="_blank">Specification (API): Backport to Java 6 (API BP)</a></li>
+                    <li><a href="https://github.com/JavaMoney/jsr354-ri-bp" target="_blank">Moneta Reference Implementation: Backport to Java 7 (RI BP)</a></li>
                     <li class="divider"></li>
                     <li class="nav-header">JavaMoney</li>
                     <li><a href="lib.html">Library</a></li>
                     <li><a href="midas.html">Midas</a></li>
-                     <li><a href="https://github.com/JavaMoney/javamoney-examples">Examples</a></li>
+                    <li><a href="https://github.com/JavaMoney/javamoney-examples" target="_blank">Examples</a></li>
+                    <li><a href="http://jadira.sourceforge.net/usertype.extended/" target="_blank">Jadira Usertype Extended (Hibernate support)</a></li>
                     <li class="nav-header">Sandbox</li>
                     <li><a href="shelter.html">Shelter</a></li>
                     <li class="divider"></li>
                     <li class="nav-header">Additional Information</li>
-                    <li><a href="http://jcp.org/en/jsr/detail?id=354">JSR 354 Detail Page</a></li>
-                    <li><a href="http://javamoney.java.net">JSR 354 Project on Java.net</a></li>
+                    <li><a href="https://jcp.org/en/jsr/detail?id=354" target="_blank">JSR 354 Detail Page</a></li>
+                    <li><a href="https://javamoney.java.net" target="_blank">JSR 354 Project on Java.net</a></li>
                     <!-- <li><a href="blog.html">Blog (Events &amp; History)</a></li></li> -->
                   </ul>
                 </li>
@@ -77,7 +81,7 @@
 		<h1>Specification (JSR 354)</h1>
 	</div>
 
-	<p><em>31 May 2015</em></p>
+	<p><em>06 September 2016</em></p>
 
 	<p>
 <h2>Money &amp; Currency API</h2>
@@ -113,15 +117,11 @@
 <pre><code>&lt;dependency&gt;
   &lt;groupId&gt;javax.money&lt;/groupId&gt;
   &lt;artifactId&gt;money-api&lt;/artifactId&gt;
-  &lt;version&gt;1.0&lt;/version&gt;
+  &lt;version&gt;1.0.1&lt;/version&gt;
 &lt;/dependency&gt;
 </code></pre>
 
-<p>Further versions can be found <a href="http://mvnrepository.com/artifact/org.javamoney/moneta/" target="_blank"></a> here.</p>
-
-<p>Though it is possible to compile your programs completely with the API, in most cases, you will also have to 
-add an implementation, e.g. the <a href="ri.html">Moneta</a> reference implementation.</p>
-
+<p>Further versions can be found <a href="http://mvnrepository.com/artifact/javax.money/money-api/" target="_blank">here</a>.</p>
 <p>
 The release artifacts should be accessible from the following repositories:
 <ul>
@@ -129,6 +129,9 @@ The release artifacts should be accessible from the following repositories:
 <li>JCenter by Bintray</li>
 </ul>
 </p>
+
+<p>Though it is possible to compile your programs completely with the API, in most cases, you will also have to 
+add an implementation, e.g. the <a href="ri.html">Moneta</a> reference implementation.</p>
 
 	<h3>
 		<a name="overview" class="anchor"
@@ -139,12 +142,12 @@ The release artifacts should be accessible from the following repositories:
 	<p>
 	    The API basically consists of four packages:
 		<ul>
-		  <li><b>javax.money</b> contains the main artifacts of the API, e.g. the interfaces for <code>MonetaryAmount, CurrencyUnit, MonetaryOperator, MonetaryQuery</code>, and the
+		  <li><code>javax.money</code> contains the main artifacts of the API, e.g. the interfaces for <code>MonetaryAmount</code>, <code>CurrencyUnit</code>, <code>MonetaryOperator</code>, <code>MonetaryQuery</code>, and the
 		  accessor singletons for amounts, currencies and roundings.</li>
-		  <li><b>javax.money.convert</b> contains currency conversion logic.</li>
-		  <li><b>javax.money.format</b> contains the formatting logic, which has some similarities with <code>java.text</code> but relies
+		  <li><code>javax.money.convert</code> contains currency conversion logic.</li>
+		  <li><code>javax.money.format</code> contains the formatting logic, which has some similarities with <code>java.text</code> but relies
 		  more on immutable artifacts and builders.</li>
-		  <li><b>javax.money.spi</b> contains the service provider interfaces and the bootstrap logic, which allows to configure the API
+		  <li><code>javax.money.spi</code> contains the service provider interfaces and the bootstrap logic, which allows to configure the API
 		  also within EE contexts (e.g. running it within a CDI container).</li>
 		</ul>
 	</p>
@@ -155,7 +158,7 @@ The release artifacts should be accessible from the following repositories:
 	</h3>
 
 	<p>
-		Since it a Java Specification Request check out out JSR's specification from the <a href="http://jcp.org/en/jsr/detail?id=354">JSR 354 Detail Page</a>.
+		Since it a Java Specification Request check out out JSR's specification from the <a href="https://jcp.org/en/jsr/detail?id=354">JSR 354 Detail Page</a>.
 	</p>
 </section>
 </p>
@@ -168,7 +171,12 @@ The release artifacts should be accessible from the following repositories:
     
     <div id="footer">
       <div class="container">
-        <p class="muted credit">&copy; 2016 | Mixed with <a href="http://twitter.github.com/bootstrap/">Bootstrap v2.3.1</a> | Baked with <a href="http://jbake.org">JBake v2.3.2</a></p>
+        <p>Having trouble with JavaMoney?
+        Ask your question at <a href="https://stackoverflow.com/questions/tagged/java-money+jsr354" target="_blank">StackOverflow</a> with tag <code>java-money</code>.
+        Join the Gitter chat <a href="https://gitter.im/orgs/JavaMoney/rooms" target="_blank"><img src="https://badges.gitter.im/Join%20Chat.svg"/></a>.
+        Or contact <a href="mailto:support@javamoney.org">support@javamoney.org</a>
+        </p>
+        <p class="muted credit">&copy; 2016 | Mixed with <a href="http://twitter.github.com/bootstrap/">Bootstrap v2.3.1</a> | Baked with <a href="http://jbake.org">JBake v2.5.0</a></p>
       </div>
     </div>
     
