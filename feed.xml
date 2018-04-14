@@ -6,9 +6,71 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Mon, 12 Dec 2016 00:35:11 +0100</pubDate>
-    <lastBuildDate>Mon, 12 Dec 2016 00:35:11 +0100</lastBuildDate>
+    <pubDate>Sun, 15 Apr 2018 00:30:24 +0200</pubDate>
+    <lastBuildDate>Sun, 15 Apr 2018 00:30:24 +0200</lastBuildDate>
 
+    <item>
+      <title>Moneta Release 1.2</title>
+      <link>http://javamoney.orgblog/2018/moneta12.html</link>
+      <pubDate>Fri, 13 Apr 2018 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2018/moneta12.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Release 1.2&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;RI Release 1.2&lt;/h3&gt;
+
+	&lt;p&gt;
+		Friday the 13th was a lucky day this year. A Service Release of the JSR 354 RI was released today.&lt;br&gt;
+		Fixing some issues, for a complete list see  &lt;a
+			href=&quot;https://github.com/JavaMoney/jsr354-ri/milestone/2?closed=1&quot;&gt;1.2 Milestone&lt;/a&gt; for further details. And check the release tag &lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/releases/tag/1.2&quot;&gt;1.2&lt;/a&gt; in the GitHub repository.&lt;br&gt;
+	&lt;/p&gt;&lt;p&gt;
+	Thanks everyone who helped publish this release.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
+    <item>
+      <title>API Release 1.0.2</title>
+      <link>http://javamoney.orgblog/2018/api102.html</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2018/api102.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Service Release 2&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;API Release 1.0.2&lt;/h3&gt;
+
+	&lt;p&gt;
+		A new service release of JSR 354 API was released today.&lt;br&gt;
+		The major improvement was embracing the Java 9 module system. As usual This patch release 1.0.2 of JSR 354 was be made available on popular Maven repositories.&lt;br&gt;
+		There are no structural API changes nor JavaDoc, etc. therefore no MR was necessary for this and jcp.org won&apos;t be updated. Check the &lt;a href=&quot;https://github.com/JavaMoney/jsr354-api/releases/tag/1.0.2&quot;&gt;1.0.2&lt;/a&gt; release tag.&lt;br&gt;
+	&lt;/p&gt;&lt;p&gt;
+	Thanks everyone who helped publish this release.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
     <item>
       <title>Moneta Release 1.1</title>
       <link>http://javamoney.orgblog/2016/moneta11.html</link>
