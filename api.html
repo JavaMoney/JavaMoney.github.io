@@ -62,13 +62,10 @@
                     <li><a href="https://github.com/JavaMoney/javamoney-examples" target="_blank">Examples</a></li>
                     <li><a href="shelter.html">Shelter</a></li>
                     <li><a href="http://jadira.sourceforge.net/usertype.extended/" target="_blank">Jadira Usertype Extended (Hibernate support)</a></li>
+                    <li><a href="https://github.com/zalando/jackson-datatype-money" target="_blank">Jackson Datatype Money by Zalando</a></li>
                     <li class="divider"></li>
                     <li class="nav-header">Additional Information</li>
                     <li><a href="https://jcp.org/en/jsr/detail?id=354" target="_blank">JSR 354 Detail Page</a></li>
-                    <!-- 
-                    <li><a href="https://javamoney.java.net" target="_blank">JSR 354 Project on Java.net</a></li>
-                    <li><a href="blog.html">Blog (Events &amp; History)</a></li></li>
-                     -->
                   </ul>
                 </li>
               </ul>
@@ -83,87 +80,43 @@
 
 	<p><em>14 April 2018</em></p>
 
-	<p>
-<h2>Money &amp; Currency API</h2>
-
-<section id="downloads" class="clearfix">
-	<a href="https://github.com/JavaMoney/jsr354-api/zipball/master"
-		id="download-zip" class="button"><span>Download .zip</span></a> <a
-		href="https://github.com/JavaMoney/jsr354-api/tarball/master"
-		id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-	<a href="https://github.com/JavaMoney/jsr354-api" id="view-on-github"
-		class="button"><span>View on GitHub</span></a>
-</section>
-
-<hr>
-
-<section id="main_content">
-	<h3>
-		<a name="what-is-jsr-354"
-			class="anchor"
-			href="#what-is-jsr-354"><span
-			class="octicon octicon-link"></span></a>What is JSR 354?
-	</h3>
-
-	<p>JSR 354 provides a portable and extendible framework for handling of Money &amp; Currency. The API
-	models monetary amounts and currencies in a platform independent and portable way, including well
-	defined extension points. It's API defines a simple yet flexible contract that enables users to choose
-	the implementation matching their target requirements best and having full control about the numeric state
-	at all stages during monetary processing. <br/>
-	The JSR is lead by Anatole Tresch (Credit Suisse) (<a href="https://github.com/atsticks" class="user-mention">@atsticks</a>).
-	<br/>You can access the API by adding the following Maven
-	dependencies:</p>
-
-<pre><code>&lt;dependency&gt;
+	<p><h2>Money &amp; Currency API</h2> 
+<section id="downloads" class="clearfix"> 
+ <a href="https://github.com/JavaMoney/jsr354-api/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a> 
+ <a href="https://github.com/JavaMoney/jsr354-api/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a> 
+ <a href="https://github.com/JavaMoney/jsr354-api" id="view-on-github" class="button"><span>View on GitHub</span></a> 
+</section> 
+<hr> 
+<section id="main_content"> 
+ <h3> <a name="what-is-jsr-354" class="anchor" href="#what-is-jsr-354"><span class="octicon octicon-link"></span></a>What is JSR 354? </h3> 
+ <p>JSR 354 provides a portable and extendible framework for handling of Money &amp; Currency. The API models monetary amounts and currencies in a platform independent and portable way, including well defined extension points. It's API defines a simple yet flexible contract that enables users to choose the implementation matching their target requirements best and having full control about the numeric state at all stages during monetary processing. <br> The JSR is lead by Anatole Tresch (Credit Suisse) (<a href="https://github.com/atsticks" class="user-mention">@atsticks</a>). <br>You can access the API by adding the following Maven dependencies:</p> 
+ <pre><code>&lt;dependency&gt;
   &lt;groupId&gt;javax.money&lt;/groupId&gt;
   &lt;artifactId&gt;money-api&lt;/artifactId&gt;
   &lt;version&gt;1.0.2&lt;/version&gt;
 &lt;/dependency&gt;
-</code></pre>
-
-<p>Further versions can be found <a href="http://mvnrepository.com/artifact/javax.money/money-api/" target="_blank">here</a>.</p>
-<p>
-The release artifacts should be accessible from the following repositories:
-<ul>
-<li>Maven Central</li>
-<li>JCenter by Bintray</li>
-</ul>
-</p>
-
-<p>Though it is possible to compile your programs completely with the API, in most cases, you will also have to 
-add an implementation, e.g. the <a href="ri.html">Moneta</a> reference implementation.</p>
-
-	<h3>
-		<a name="overview" class="anchor"
-			href="#overview"><span
-			class="octicon octicon-link"></span></a>Overview
-	</h3>
-
-	<p>
-	    The API basically consists of four packages:
-		<ul>
-		  <li><code>javax.money</code> contains the main artifacts of the API, e.g. the interfaces for <code>MonetaryAmount</code>, <code>CurrencyUnit</code>, <code>MonetaryOperator</code>, <code>MonetaryQuery</code>, and the
-		  accessor singletons for amounts, currencies and roundings.</li>
-		  <li><code>javax.money.convert</code> contains currency conversion logic.</li>
-		  <li><code>javax.money.format</code> contains the formatting logic, which has some similarities with <code>java.text</code> but relies
-		  more on immutable artifacts and builders.</li>
-		  <li><code>javax.money.spi</code> contains the service provider interfaces and the bootstrap logic, which allows to configure the API
-		  also within EE contexts (e.g. running it within a CDI container).</li>
-		</ul>
-		
-		The Java 9 "Jigsaw" module is <code>java.money</code>.
-	</p>
-
-	<h3>
-		<a name="documentation" class="anchor" href="#documentation"><span
-			class="octicon octicon-link"></span></a>Documentation
-	</h3>
-
-	<p>
-		Since it a Java Specification Request check out out JSR's specification from the <a href="https://jcp.org/en/jsr/detail?id=354">JSR 354 Detail Page</a>.
-	</p>
-</section>
-</p>
+</code></pre> 
+ <p>Further versions can be found <a href="http://mvnrepository.com/artifact/javax.money/money-api/" target="_blank">here</a>.</p> 
+ <p> The release artifacts should be accessible from the following repositories: </p>
+ <ul> 
+  <li>Maven Central</li> 
+  <li>JCenter by Bintray</li> 
+ </ul> 
+ <p></p> 
+ <p>Though it is possible to compile your programs completely with the API, in most cases, you will also have to add an implementation, e.g. the <a href="ri.html">Moneta</a> reference implementation.</p> 
+ <h3> <a name="overview" class="anchor" href="#overview"><span class="octicon octicon-link"></span></a>Overview </h3> 
+ <p> The API basically consists of four packages: </p>
+ <ul> 
+  <li><code>javax.money</code> contains the main artifacts of the API, e.g. the interfaces for <code>MonetaryAmount</code>, <code>CurrencyUnit</code>, <code>MonetaryOperator</code>, <code>MonetaryQuery</code>, and the accessor singletons for amounts, currencies and roundings.</li> 
+  <li><code>javax.money.convert</code> contains currency conversion logic.</li> 
+  <li><code>javax.money.format</code> contains the formatting logic, which has some similarities with <code>java.text</code> but relies more on immutable artifacts and builders.</li> 
+  <li><code>javax.money.spi</code> contains the service provider interfaces and the bootstrap logic, which allows to configure the API also within EE contexts (e.g. running it within a CDI container).</li> 
+ </ul> The Java 9 "Jigsaw" module is 
+ <code>java.money</code>. 
+ <p></p> 
+ <h3> <a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation </h3> 
+ <p> Since it a Java Specification Request check out out JSR's specification from the <a href="https://jcp.org/en/jsr/detail?id=354">JSR 354 Detail Page</a>. </p> 
+</section></p>
 
 	<hr>
 
@@ -178,7 +131,7 @@ add an implementation, e.g. the <a href="ri.html">Moneta</a> reference implement
         Join the Gitter chat <a href="https://gitter.im/orgs/JavaMoney/rooms" target="_blank"><img src="https://badges.gitter.im/Join%20Chat.svg"/></a>.
         Or contact <a href="mailto:support@javamoney.org">support@javamoney.org</a>
         </p>
-        <p class="muted credit">&copy; 2018 JavaMoney | Mixed with <a href="http://twitter.github.com/bootstrap/">Bootstrap v2.3.1</a> | Baked with <a href="http://jbake.org">JBake v2.5.0</a></p>
+        <p class="muted credit">&copy; 2018 JavaMoney | Mixed with <a href="http://twitter.github.com/bootstrap/">Bootstrap v2.3.1</a> | Baked with <a href="http://jbake.org">JBake v2.6.1</a></p>
       </div>
     </div>
     

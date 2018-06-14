@@ -6,38 +6,41 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Wed, 30 May 2018 21:01:54 +0200</pubDate>
-    <lastBuildDate>Wed, 30 May 2018 21:01:54 +0200</lastBuildDate>
+    <pubDate>Thu, 14 Jun 2018 19:12:50 +0200</pubDate>
+    <lastBuildDate>Thu, 14 Jun 2018 19:12:50 +0200</lastBuildDate>
 
+    <item>
+      <title>PSD2 XS2A</title>
+      <link>http://javamoney.orgblog/2018/xs2a.html</link>
+      <pubDate>Tue, 5 Jun 2018 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2018/xs2a.html</guid>
+      	<description>
+	&lt;header&gt; 
+ &lt;h1&gt;PSD2&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;XS2A&lt;/h3&gt; 
+ &lt;p&gt; To support the EU directive &lt;a href=&quot;https://en.wikipedia.org/wiki/Payment_Services_Directive#Revised_Directive_on_Payment_Services_(PSD2)&quot;&gt;PSD2&lt;/a&gt; the &lt;a href=&quot;https://www.berlin-group.org/&quot;&gt;Berlin Group&lt;/a&gt; initiative described and specified the process to implement PSD2 in an open and transparent manner. &lt;/p&gt;
+ &lt;p&gt; &lt;a href=&quot;https://www.adorsys.de/en/index.html&quot;&gt;Adorsys&lt;/a&gt;, a development consultancy specialized in the financial and insurance sector made an &lt;a href=&quot;https://github.com/adorsys/xs2a&quot;&gt;XS2A&lt;/a&gt; blueprint and Java reference implementation of the Berlin Group specification available on GitHub. We created a &lt;a href=&quot;https://github.com/JavaMoney/xs2a&quot;&gt;fork&lt;/a&gt; at JavaMoney and already contributed some improvements back to the upstream repository by Adorsys via PRs. We expect to continue contributing and welcome other members of the JavaMoney community if they wish to participate. &lt;/p&gt; 
+&lt;/section&gt;
+	</description>
+    </item>
     <item>
       <title>Moneta Release 1.2</title>
       <link>http://javamoney.orgblog/2018/moneta12.html</link>
       <pubDate>Fri, 13 Apr 2018 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2018/moneta12.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;Release 1.2&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;RI Release 1.2&lt;/h3&gt;
-
-	&lt;p&gt;
-		Friday the 13th was a lucky day this year. A Service Release of the JSR 354 RI was released today.&lt;br&gt;
-		Fixing some issues, for a complete list see  &lt;a
-			href=&quot;https://github.com/JavaMoney/jsr354-ri/milestone/2?closed=1&quot;&gt;1.2 Milestone&lt;/a&gt; for further details. And check the release tag &lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/releases/tag/1.2&quot;&gt;1.2&lt;/a&gt; in the GitHub repository.&lt;br&gt;
-	&lt;/p&gt;&lt;p&gt;
-	Thanks everyone who helped publish this release.
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;Release 1.2&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;RI Release 1.2&lt;/h3&gt; 
+ &lt;p&gt; Friday the 13th was a lucky day this year. A Service Release of the JSR 354 RI was released today.&lt;br&gt; Fixing some issues, for a complete list see &lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/milestone/2?closed=1&quot;&gt;1.2 Milestone&lt;/a&gt; for further details. And check the release tag &lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/releases/tag/1.2&quot;&gt;1.2&lt;/a&gt; in the GitHub repository.&lt;br&gt; &lt;/p&gt;
+ &lt;p&gt; Thanks everyone who helped publish this release. &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
     <item>
@@ -46,29 +49,15 @@
       <pubDate>Tue, 10 Apr 2018 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2018/api102.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;Service Release 2&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;API Release 1.0.2&lt;/h3&gt;
-
-	&lt;p&gt;
-		A new service release of JSR 354 API was released today.&lt;br&gt;
-		The major improvement was embracing the Java 9 module system. As usual This patch release 1.0.2 of JSR 354 was be made available on popular Maven repositories.&lt;br&gt;
-		There are no structural API changes nor JavaDoc, etc. therefore no MR was necessary for this and jcp.org won&apos;t be updated. Check the &lt;a href=&quot;https://github.com/JavaMoney/jsr354-api/releases/tag/1.0.2&quot;&gt;1.0.2&lt;/a&gt; release tag.&lt;br&gt;
-	&lt;/p&gt;&lt;p&gt;
-	Thanks everyone who helped publish this release.
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;Service Release 2&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;API Release 1.0.2&lt;/h3&gt; 
+ &lt;p&gt; A new service release of JSR 354 API was released today.&lt;br&gt; The major improvement was embracing the Java 9 module system. As usual This patch release 1.0.2 of JSR 354 was be made available on popular Maven repositories.&lt;br&gt; There are no structural API changes nor JavaDoc, etc. therefore no MR was necessary for this and jcp.org won&apos;t be updated. Check the &lt;a href=&quot;https://github.com/JavaMoney/jsr354-api/releases/tag/1.0.2&quot;&gt;1.0.2&lt;/a&gt; release tag.&lt;br&gt; &lt;/p&gt;
+ &lt;p&gt; Thanks everyone who helped publish this release. &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
     <item>
@@ -77,29 +66,15 @@
       <pubDate>Fri, 20 May 2016 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2016/moneta11.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;Service Release&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;RI Release 1.1&lt;/h3&gt;
-
-	&lt;p&gt;
-		A Service Release of the JSR 354 RIs was released today.&lt;br&gt;
-		Fixing a few issues, e.g. differences between Moneta and Moneta-BP. See  &lt;a
-			href=&quot;https://java.net/jira/browse/JAVAMONEY-124?jql=project%20%3D%20JAVAMONEY%20AND%20fixVersion%20%3D%201.1%20ORDER%20BY%20updated%20DESC%2C%20priority%20DESC%2C%20created%20ASC&quot;&gt;JIRA&lt;/a&gt; for further details. And check the MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-ri&quot;&gt;JSR 354 RI&lt;/a&gt; GitHub repository.&lt;br&gt;
-	&lt;/p&gt;&lt;p&gt;
-	Thanks everyone who helped publish this release.
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;Service Release&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;RI Release 1.1&lt;/h3&gt; 
+ &lt;p&gt; A Service Release of the JSR 354 RIs was released today.&lt;br&gt; Fixing a few issues, e.g. differences between Moneta and Moneta-BP. See &lt;a href=&quot;https://java.net/jira/browse/JAVAMONEY-124?jql=project%20%3D%20JAVAMONEY%20AND%20fixVersion%20%3D%201.1%20ORDER%20BY%20updated%20DESC%2C%20priority%20DESC%2C%20created%20ASC&quot;&gt;JIRA&lt;/a&gt; for further details. And check the MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-ri&quot;&gt;JSR 354 RI&lt;/a&gt; GitHub repository.&lt;br&gt; &lt;/p&gt;
+ &lt;p&gt; Thanks everyone who helped publish this release. &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
     <item>
@@ -108,29 +83,15 @@
       <pubDate>Tue, 16 Feb 2016 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2016/api101.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;Patch Release&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;API Release 1.0.1&lt;/h3&gt;
-
-	&lt;p&gt;
-		A small patch of JSR 354 API was released yesterday.&lt;br&gt;
-		The major fix was building the Java 7 (BP) API with Java 7 instead of Java 8. To ensure there are no class version compatibility problems running API-BP and Moneta-BP under Java 7. This patch release 1.0.1 of JSR 354 was be made available on popular Maven repositories.&lt;br&gt;
-		There are no structural API changes nor JavaDoc, etc. therefore no MR was necessary for this and jcp.org won&apos;t be updated. Check the MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-api&quot;&gt;JSR 354 API&lt;/a&gt; GitHub repository.&lt;br&gt;
-	&lt;/p&gt;&lt;p&gt;
-	Thanks everyone who helped publish this release.
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;Patch Release&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;API Release 1.0.1&lt;/h3&gt; 
+ &lt;p&gt; A small patch of JSR 354 API was released yesterday.&lt;br&gt; The major fix was building the Java 7 (BP) API with Java 7 instead of Java 8. To ensure there are no class version compatibility problems running API-BP and Moneta-BP under Java 7. This patch release 1.0.1 of JSR 354 was be made available on popular Maven repositories.&lt;br&gt; There are no structural API changes nor JavaDoc, etc. therefore no MR was necessary for this and jcp.org won&apos;t be updated. Check the MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-api&quot;&gt;JSR 354 API&lt;/a&gt; GitHub repository.&lt;br&gt; &lt;/p&gt;
+ &lt;p&gt; Thanks everyone who helped publish this release. &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
     <item>
@@ -139,30 +100,15 @@
       <pubDate>Tue, 12 May 2015 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2015/final.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;Final Release&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;Final Release&lt;/h3&gt;
-
-	&lt;p&gt;
-		JSR 354 just passed &lt;b&gt;Final Approval Ballot&lt;/b&gt; by the JCP EC. Check out the &lt;a
-			href=&quot;https://jcp.org/en/jsr/results?id=5782&quot;&gt;results&lt;/a&gt;.&lt;br&gt;
-		Final Release 1.0 of JSR 354 will be made available soon on jcp.org as well as popular Maven repositories.&lt;br&gt;
-		Check for it e.g. via MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-api&quot;&gt;JSR 354 API&lt;/a&gt; GitHub repository.&lt;br&gt;
-	&lt;/p&gt;&lt;p&gt;
-	Thanks everyone who helped with JSR 354 and the wider JavaMoney project.
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;Final Release&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;Final Release&lt;/h3&gt; 
+ &lt;p&gt; JSR 354 just passed &lt;b&gt;Final Approval Ballot&lt;/b&gt; by the JCP EC. Check out the &lt;a href=&quot;https://jcp.org/en/jsr/results?id=5782&quot;&gt;results&lt;/a&gt;.&lt;br&gt; Final Release 1.0 of JSR 354 will be made available soon on jcp.org as well as popular Maven repositories.&lt;br&gt; Check for it e.g. via MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-api&quot;&gt;JSR 354 API&lt;/a&gt; GitHub repository.&lt;br&gt; &lt;/p&gt;
+ &lt;p&gt; Thanks everyone who helped with JSR 354 and the wider JavaMoney project. &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
     <item>
@@ -171,24 +117,13 @@
       <pubDate>Tue, 5 May 2015 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2015/star-spec-lead.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;Star Spec Lead 2014&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;p&gt;
-		The JCP program recognized JSR 354 Spec Lead Anatole Tresch as &lt;a
-			href=&quot;https://jcp.org/en/press/news/specLeadStars/commFocus_stars_tresch&quot;&gt;2014 Star Spec Lead&lt;/a&gt;.
-	&lt;br&gt;Congratulations Anatole and thanks for your great work on JSR 354.
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;Star Spec Lead 2014&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;p&gt; The JCP program recognized JSR 354 Spec Lead Anatole Tresch as &lt;a href=&quot;https://jcp.org/en/press/news/specLeadStars/commFocus_stars_tresch&quot;&gt;2014 Star Spec Lead&lt;/a&gt;. &lt;br&gt;Congratulations Anatole and thanks for your great work on JSR 354. &lt;/p&gt; 
 &lt;/section&gt;
-
-
 	</description>
     </item>
     <item>
@@ -197,25 +132,13 @@
       <pubDate>Fri, 13 Mar 2015 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2015/pfd.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;Proposed Final Draft&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;p&gt;
-		The JSR 354 &lt;b&gt;Proposed Final Draft&lt;/b&gt; started on JCP.org. Check out the &lt;a
-			href=&quot;https://jcp.org/aboutJava/communityprocess/pfd/jsr354/index.html&quot;&gt;PFD
-			Download Page&lt;/a&gt;
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;Proposed Final Draft&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;p&gt; The JSR 354 &lt;b&gt;Proposed Final Draft&lt;/b&gt; started on JCP.org. Check out the &lt;a href=&quot;https://jcp.org/aboutJava/communityprocess/pfd/jsr354/index.html&quot;&gt;PFD Download Page&lt;/a&gt; &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
     <item>
@@ -224,26 +147,14 @@
       <pubDate>Wed, 12 Nov 2014 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2014/devoxx14.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;DevoXX BE 2014&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;JSR 354 at Hackergarten &lt;/h3&gt;
-
-	&lt;p&gt;
-		Anatole hosted a &lt;b&gt;Hackergarten&lt;/b&gt; session on JSR 354 at &lt;a
-			href=&quot;https://java.net/projects/hackgarten/pages/Home&quot;&gt;DevoXX BE 2014&lt;/a&gt;.
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;DevoXX BE 2014&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;JSR 354 at Hackergarten &lt;/h3&gt; 
+ &lt;p&gt; Anatole hosted a &lt;b&gt;Hackergarten&lt;/b&gt; session on JSR 354 at &lt;a href=&quot;https://java.net/projects/hackgarten/pages/Home&quot;&gt;DevoXX BE 2014&lt;/a&gt;. &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
     <item>
@@ -252,33 +163,16 @@
       <pubDate>Tue, 30 Sep 2014 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2014/javaone14.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;JavaOne 2014&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;JSR 354 at Hackergarten &lt;/h3&gt;
-
-	&lt;p&gt;
-		Anatole hosted a &lt;b&gt;Hackergarten&lt;/b&gt; session on JSR 354 at &lt;a
-			href=&quot;https://blogs.oracle.com/javaone/entry/hackergarten_at_javaone_2014&quot;&gt;JavaOne 2014&lt;/a&gt;.
-	&lt;/p&gt;
-	
-	&lt;h3&gt;Bitcoin Panel about JavaMoney&lt;/h3&gt;
-
-	&lt;p&gt;
-		Two leading JavaMoney contributors (though Anatole must have caught a bit too much &quot;Java Feaver&quot; in the Hackergarten it seems;-) and Payward COO Micchael Gronager were on an expert panel on &lt;a
-			href=&quot;https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=6297&quot;&gt;Java and Digital Currencies, Friend or Foe?&lt;/a&gt; at JavaOne 2014.
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;JavaOne 2014&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;JSR 354 at Hackergarten &lt;/h3&gt; 
+ &lt;p&gt; Anatole hosted a &lt;b&gt;Hackergarten&lt;/b&gt; session on JSR 354 at &lt;a href=&quot;https://blogs.oracle.com/javaone/entry/hackergarten_at_javaone_2014&quot;&gt;JavaOne 2014&lt;/a&gt;. &lt;/p&gt; 
+ &lt;h3&gt;Bitcoin Panel about JavaMoney&lt;/h3&gt; 
+ &lt;p&gt; Two leading JavaMoney contributors (though Anatole must have caught a bit too much &quot;Java Feaver&quot; in the Hackergarten it seems;-) and Payward COO Micchael Gronager were on an expert panel on &lt;a href=&quot;https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=6297&quot;&gt;Java and Digital Currencies, Friend or Foe?&lt;/a&gt; at JavaOne 2014. &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
     <item>
@@ -287,27 +181,14 @@
       <pubDate>Wed, 26 Mar 2014 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2014/pr2.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;Public Review 2&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;Public Review 2&lt;/h3&gt;
-
-	&lt;p&gt;
-		The JSR 354 &lt;b&gt;Public Review 2&lt;/b&gt; started on JCP.org. Check out the &lt;a
-			href=&quot;https://jcp.org/aboutJava/communityprocess/pr/jsr354/index2.html&quot;&gt;PR 2
-			Download Page&lt;/a&gt;
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;Public Review 2&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;Public Review 2&lt;/h3&gt; 
+ &lt;p&gt; The JSR 354 &lt;b&gt;Public Review 2&lt;/b&gt; started on JCP.org. Check out the &lt;a href=&quot;https://jcp.org/aboutJava/communityprocess/pr/jsr354/index2.html&quot;&gt;PR 2 Download Page&lt;/a&gt; &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
     <item>
@@ -316,27 +197,14 @@
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2013/gimmeshelter.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;JavaMoney Shelter&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;Shelter Opened&lt;/h3&gt;
-
-	&lt;p&gt;
-		The &lt;b&gt;JavaMoney Shelter&lt;/b&gt; opened for incubating modules and those in need of adoption.&lt;br&gt;
-		Check out &lt;a
-			href=&quot;../../shelter.html&quot;&gt;javamoney-shelter&lt;/a&gt; to &lt;b&gt;Adopt-a-JSR&lt;/b&gt; and related projects before &lt;b&gt;Christmas&lt;/b&gt;;-)
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;JavaMoney Shelter&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;Shelter Opened&lt;/h3&gt; 
+ &lt;p&gt; The &lt;b&gt;JavaMoney Shelter&lt;/b&gt; opened for incubating modules and those in need of adoption.&lt;br&gt; Check out &lt;a href=&quot;../../shelter.html&quot;&gt;javamoney-shelter&lt;/a&gt; to &lt;b&gt;Adopt-a-JSR&lt;/b&gt; and related projects before &lt;b&gt;Christmas&lt;/b&gt;;-) &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
     <item>
@@ -345,27 +213,14 @@
       <pubDate>Thu, 24 Oct 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2013/pdr.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;Public Draft Review&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;Public Draft&lt;/h3&gt;
-
-	&lt;p&gt;
-		The JSR 354 &lt;b&gt;Public Review&lt;/b&gt; started on JCP.org. Check out the &lt;a
-			href=&quot;http://jcp.org/aboutJava/communityprocess/pr/jsr354/index.html&quot;&gt;PR
-			Download Page&lt;/a&gt;
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;Public Draft Review&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;Public Draft&lt;/h3&gt; 
+ &lt;p&gt; The JSR 354 &lt;b&gt;Public Review&lt;/b&gt; started on JCP.org. Check out the &lt;a href=&quot;http://jcp.org/aboutJava/communityprocess/pr/jsr354/index.html&quot;&gt;PR Download Page&lt;/a&gt; &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
     <item>
@@ -374,27 +229,14 @@
       <pubDate>Wed, 1 May 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2013/edr.html</guid>
       	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;Early Draft Review&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;Early Draft&lt;/h3&gt;
-
-	&lt;p&gt;
-		The JSR 354 &lt;b&gt;Early Draft&lt;/b&gt; started on JCP.org. Check out the &lt;a
-			href=&quot;http://jcp.org/aboutJava/communityprocess/edr/jsr354/index.html&quot;&gt;EDR
-			Download Page&lt;/a&gt;
-	&lt;/p&gt;
+	&lt;header&gt; 
+ &lt;h1&gt;Early Draft Review&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;Early Draft&lt;/h3&gt; 
+ &lt;p&gt; The JSR 354 &lt;b&gt;Early Draft&lt;/b&gt; started on JCP.org. Check out the &lt;a href=&quot;http://jcp.org/aboutJava/communityprocess/edr/jsr354/index.html&quot;&gt;EDR Download Page&lt;/a&gt; &lt;/p&gt; 
 &lt;/section&gt;
-
-
-
 	</description>
     </item>
 

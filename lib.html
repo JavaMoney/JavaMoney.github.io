@@ -62,13 +62,10 @@
                     <li><a href="https://github.com/JavaMoney/javamoney-examples" target="_blank">Examples</a></li>
                     <li><a href="shelter.html">Shelter</a></li>
                     <li><a href="http://jadira.sourceforge.net/usertype.extended/" target="_blank">Jadira Usertype Extended (Hibernate support)</a></li>
+                    <li><a href="https://github.com/zalando/jackson-datatype-money" target="_blank">Jackson Datatype Money by Zalando</a></li>
                     <li class="divider"></li>
                     <li class="nav-header">Additional Information</li>
                     <li><a href="https://jcp.org/en/jsr/detail?id=354" target="_blank">JSR 354 Detail Page</a></li>
-                    <!-- 
-                    <li><a href="https://javamoney.java.net" target="_blank">JSR 354 Project on Java.net</a></li>
-                    <li><a href="blog.html">Blog (Events &amp; History)</a></li></li>
-                     -->
                   </ul>
                 </li>
               </ul>
@@ -83,28 +80,21 @@
 
 	<p><em>10 July 2016</em></p>
 
-	<p>
-        <header>
-          <h1>JavaMoney Library</h1>
-          <h2>JavaMoney financial library, evolved from JSR 354 development.</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/JavaMoney/javamoney-lib/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/JavaMoney/javamoney-lib/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/JavaMoney/javamoney-lib" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <h3>
-<a name="welcome-to-the-javamoney-financial-library" class="anchor" href="#welcome-to-the-javamoney-financial-library"><span class="octicon octicon-link"></span></a>Welcome to the JavaMoney financial library.</h3>
-
-<p><a href="https://github.com/JavaMoney/javamoney-lib" target="_blank">JavaMoney-lib</a> is a financial library that is built upon JSR 354 (or compatible libraries). Whereas the JSR 354 API and reference implementation provides the fundamentals like monetary amounts, customizable currencies and interfaces for interoperation this library adds additional powerful APIs and SPIs that were implemented during JSR development as a proof of concept:</p>
-
-<ul>
-<!--
+	<p><header> 
+ <h1>JavaMoney Library</h1> 
+ <h2>JavaMoney financial library, evolved from JSR 354 development.</h2> 
+</header> 
+<section id="downloads" class="clearfix"> 
+ <a href="https://github.com/JavaMoney/javamoney-lib/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a> 
+ <a href="https://github.com/JavaMoney/javamoney-lib/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a> 
+ <a href="https://github.com/JavaMoney/javamoney-lib" id="view-on-github" class="button"><span>View on GitHub</span></a> 
+</section> 
+<hr> 
+<section id="main_content"> 
+ <h3> <a name="welcome-to-the-javamoney-financial-library" class="anchor" href="#welcome-to-the-javamoney-financial-library"><span class="octicon octicon-link"></span></a>Welcome to the JavaMoney financial library.</h3> 
+ <p><a href="https://github.com/JavaMoney/javamoney-lib" target="_blank">JavaMoney-lib</a> is a financial library that is built upon JSR 354 (or compatible libraries). Whereas the JSR 354 API and reference implementation provides the fundamentals like monetary amounts, customizable currencies and interfaces for interoperation this library adds additional powerful APIs and SPIs that were implemented during JSR development as a proof of concept:</p> 
+ <ul> 
+  <!--
 <li>
 <strong>Currency Conversion</strong>, supporting multiple conversion data providers, direct and derived (chained) rates, current, as well as historic conversion. Also feed implementations from the European Central Bank (EZB) and the International Monetary Funds (IMF) were available, that support currency conversion back to 1995 for almost every ISO currency.</li>
 <li>
@@ -117,20 +107,16 @@
 <strong>Validity API</strong> This API provides a generic API for accessing historic validity information for arbitrary items, and for relationships between items. By default the API provides access to the historic relationship of currencies to countries using the Unicode CLDR data.</li>
 <li>
 <strong>common</strong> provides general functionality, such as an automatic data loader, which allows to update and locally cache arbitrary remote resources, and inform clients, if a new version of a resource was detected.</li>
--->
-<li>
-<strong>calc</strong> finally provides a set of monetary calculations and formulas. The idea here is to provide a comprehensive set of algorithms and tools to perform complex financial mathematics. </li>
-<li>
-<strong>bundles</strong> finally provides the library in different flavors, targeting different execution environments:
-    <ul>
-        <li><strong>se</strong> loading SPIs only using the JDK <code>ServiceLoader</code>.</li>
-        <li><strong>se-cdi</strong> loading SPIs based on a Weld SE container.</li>
-        <li><strong>ee</strong> loading SPIs based on CDI in a Java EE environment &gt;= EE6.</li>
-    </ul>
-</li>
-</ul>
-
-<!--
+--> 
+  <li> <strong>calc</strong> finally provides a set of monetary calculations and formulas. The idea here is to provide a comprehensive set of algorithms and tools to perform complex financial mathematics. </li> 
+  <li> <strong>bundles</strong> finally provides the library in different flavors, targeting different execution environments: 
+   <ul> 
+    <li><strong>se</strong> loading SPIs only using the JDK <code>ServiceLoader</code>.</li> 
+    <li><strong>se-cdi</strong> loading SPIs based on a Weld SE container.</li> 
+    <li><strong>ee</strong> loading SPIs based on CDI in a Java EE environment &gt;= EE6.</li> 
+   </ul> </li> 
+ </ul> 
+ <!--
 <p>To use the library you simply have to add the Maven dependency to your project.</p>
 
 <pre><code>&lt;dependency&gt;
@@ -147,21 +133,12 @@ The release artifacts should be accessible from the following repositories:
 <li>JCenter by Bintray</li>
 </ul>
 </p>
--->
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>Different people have contributed to this project. During the development of JSR 354, <a href="https://github.com/atsticks" class="user-mention">@atsticks</a> and <a href="https://github.com/keilw" class="user-mention">@keilw</a> founded this project and were also the main contributors. Nevertheless everybody is really welcome to help us, to make this library more feasible and add features.</p>
-
-<h3>
-<a name="javamoney-shelter" class="anchor" href="#javamoney-shelter"><span class="octicon octicon-link"></span></a>javamoney-shelter</h3>
-
-<p>The <a href="shelter.html">JavaMoney Shelter</a> module is for testing out new features or modules before they may enter the official JavaMoney library.
-</p>
-
-</section>
-</p>
+--> 
+ <h3> <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3> 
+ <p>Different people have contributed to this project. During the development of JSR 354, <a href="https://github.com/atsticks" class="user-mention">@atsticks</a> and <a href="https://github.com/keilw" class="user-mention">@keilw</a> founded this project and were also the main contributors. Nevertheless everybody is really welcome to help us, to make this library more feasible and add features.</p> 
+ <h3> <a name="javamoney-shelter" class="anchor" href="#javamoney-shelter"><span class="octicon octicon-link"></span></a>javamoney-shelter</h3> 
+ <p>The <a href="shelter.html">JavaMoney Shelter</a> module is for testing out new features or modules before they may enter the official JavaMoney library. </p> 
+</section></p>
 
 	<hr>
 
@@ -176,7 +153,7 @@ The release artifacts should be accessible from the following repositories:
         Join the Gitter chat <a href="https://gitter.im/orgs/JavaMoney/rooms" target="_blank"><img src="https://badges.gitter.im/Join%20Chat.svg"/></a>.
         Or contact <a href="mailto:support@javamoney.org">support@javamoney.org</a>
         </p>
-        <p class="muted credit">&copy; 2018 JavaMoney | Mixed with <a href="http://twitter.github.com/bootstrap/">Bootstrap v2.3.1</a> | Baked with <a href="http://jbake.org">JBake v2.5.0</a></p>
+        <p class="muted credit">&copy; 2018 JavaMoney | Mixed with <a href="http://twitter.github.com/bootstrap/">Bootstrap v2.3.1</a> | Baked with <a href="http://jbake.org">JBake v2.6.1</a></p>
       </div>
     </div>
     
