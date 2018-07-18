@@ -6,9 +6,26 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Thu, 14 Jun 2018 19:12:50 +0200</pubDate>
-    <lastBuildDate>Thu, 14 Jun 2018 19:12:50 +0200</lastBuildDate>
+    <pubDate>Wed, 18 Jul 2018 16:50:15 +0200</pubDate>
+    <lastBuildDate>Wed, 18 Jul 2018 16:50:15 +0200</lastBuildDate>
 
+    <item>
+      <title>Moneta Release 1.3</title>
+      <link>http://javamoney.orgblog/2018/moneta13.html</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2018/moneta13.html</guid>
+      	<description>
+	&lt;header&gt; 
+ &lt;h1&gt;Release 1.3&lt;/h1&gt; 
+&lt;/header&gt; 
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt; 
+&lt;section id=&quot;main_content&quot;&gt; 
+ &lt;h3&gt;RI Release 1.3&lt;/h3&gt; 
+ &lt;p&gt; Friday the 13th happened again this year in July. And another Service Release of the JSR 354 RI was released today.&lt;br&gt; Partly because enough issues were fixed, partly because it&apos;s a nice date, especially for a release 1.3 ;-)&lt;br&gt; Fixing some issues, for a complete list see &lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/milestone/3?closed=1&quot;&gt;1.3 Milestone&lt;/a&gt; for further details. And check the release tag &lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/releases/tag/1.3&quot;&gt;1.3&lt;/a&gt; in the GitHub repository.&lt;br&gt; &lt;/p&gt;
+ &lt;p&gt; Thanks everyone who helped with this release. &lt;/p&gt; 
+&lt;/section&gt;
+	</description>
+    </item>
     <item>
       <title>PSD2 XS2A</title>
       <link>http://javamoney.orgblog/2018/xs2a.html</link>
