@@ -6,8 +6,8 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Mon, 27 Apr 2020 17:31:18 +0200</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2020 17:31:18 +0200</lastBuildDate>
+    <pubDate>Mon, 27 Apr 2020 17:35:36 +0200</pubDate>
+    <lastBuildDate>Mon, 27 Apr 2020 17:35:36 +0200</lastBuildDate>
 
     <item>
       <title>Transfer Ballot</title>
@@ -220,6 +220,33 @@
 			href=&quot;https://java.net/jira/browse/JAVAMONEY-124?jql=project%20%3D%20JAVAMONEY%20AND%20fixVersion%20%3D%201.1%20ORDER%20BY%20updated%20DESC%2C%20priority%20DESC%2C%20created%20ASC&quot;&gt;JIRA&lt;/a&gt; for further details. And check the MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-ri&quot;&gt;JSR 354 RI&lt;/a&gt; GitHub repository.&lt;br&gt;
 	&lt;/p&gt;&lt;p&gt;
 	Thanks everyone who helped publish this release.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
+    <item>
+      <title>CloJUG April 2016</title>
+      <link>http://javamoney.orgblog/2016/clojug16.html</link>
+      <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2016/clojug16.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Alexis Lopez - JSR354: Currency and Money&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;p&gt;Alexis Lopez gave a live presentation to the Cali Java Users Group.&lt;br&gt;
+		&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZE3SLcKKbPo&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+	&lt;br&gt;This presentation is recorded to satisfy the JavaOne CFP submission requirement.
+		It has been already delivered to the Cali Java Users Group in Spanish.
 	&lt;/p&gt;
 &lt;/section&gt;
 
