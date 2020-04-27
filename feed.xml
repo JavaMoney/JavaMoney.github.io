@@ -6,38 +6,9 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Mon, 27 Apr 2020 14:55:12 +0200</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2020 14:55:12 +0200</lastBuildDate>
+    <pubDate>Mon, 27 Apr 2020 17:31:18 +0200</pubDate>
+    <lastBuildDate>Mon, 27 Apr 2020 17:31:18 +0200</lastBuildDate>
 
-    <item>
-      <title>DevoXX BE 2019</title>
-      <link>http://javamoney.orgblog/2019/devoxx19.html</link>
-      <pubDate>Tue, 5 Nov 2019 00:00:00 +0100</pubDate>
-      <guid isPermaLink="false">blog/2019/devoxx19.html</guid>
-      	<description>
-	
-
-&lt;header&gt;
-	&lt;h1&gt;DevoXX BE 2019&lt;/h1&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
-
-
-&lt;section id=&quot;main_content&quot;&gt;
-	&lt;h3&gt;JSR 354 at Tools-in-Action session of Devoxx BE 2019&lt;/h3&gt;
-
-	&lt;p&gt;
-		Werner held a Tools-in-Action session about JSR 354 on the first day of &lt;a
-			href=&quot;https://devoxx.be/&quot;&gt;DevoXX BE 2019&lt;/a&gt;.&lt;br&gt;
-		&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;270&quot; src=&quot;https://www.youtube.com/embed/heH08CROmb0&quot; width=&quot;480&quot;&gt;&lt;/iframe&gt;
-	&lt;/br&gt;
-&lt;/section&gt;
-
-
-
-	</description>
-    </item>
     <item>
       <title>Transfer Ballot</title>
       <link>http://javamoney.orgblog/2018/transfer.html</link>
