@@ -6,8 +6,8 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Mon, 4 May 2020 01:02:50 +0200</pubDate>
-    <lastBuildDate>Mon, 4 May 2020 01:02:50 +0200</lastBuildDate>
+    <pubDate>Sat, 23 May 2020 20:42:40 +0200</pubDate>
+    <lastBuildDate>Sat, 23 May 2020 20:42:40 +0200</lastBuildDate>
 
     <item>
       <title>DevoXX BE 2019</title>
@@ -243,7 +243,7 @@
 	&lt;p&gt;
 		A Service Release of the JSR 354 RIs was released today.&lt;br&gt;
 		Fixing a few issues, e.g. differences between Moneta and Moneta-BP. See  &lt;a
-			href=&quot;https://java.net/jira/browse/JAVAMONEY-124?jql=project%20%3D%20JAVAMONEY%20AND%20fixVersion%20%3D%201.1%20ORDER%20BY%20updated%20DESC%2C%20priority%20DESC%2C%20created%20ASC&quot;&gt;JIRA&lt;/a&gt; for further details. And check the MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-ri&quot;&gt;JSR 354 RI&lt;/a&gt; GitHub repository.&lt;br&gt;
+			href=&quot;https://github.com/JavaMoney/jsr354-ri/issues?q=is%3Aissue+is%3Aclosed&quot;&gt;Github issue tracker&lt;/a&gt; for further details. And check the MavenCentral status badge in the &lt;a href=&quot;http://github.com/JavaMoney/jsr354-ri&quot;&gt;JSR 354 RI&lt;/a&gt; GitHub repository.&lt;br&gt;
 	&lt;/p&gt;&lt;p&gt;
 	Thanks everyone who helped publish this release.
 	&lt;/p&gt;
