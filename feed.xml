@@ -6,9 +6,121 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Sat, 23 May 2020 20:42:40 +0200</pubDate>
-    <lastBuildDate>Sat, 23 May 2020 20:42:40 +0200</lastBuildDate>
+    <pubDate>Sun, 24 May 2020 02:20:33 +0200</pubDate>
+    <lastBuildDate>Sun, 24 May 2020 02:20:33 +0200</lastBuildDate>
 
+    <item>
+      <title>Java 25th Birthday Week</title>
+      <link>http://javamoney.orgblog/2020/movedbyjava.html</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2020/movedbyjava.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Moved by Java&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;Java 25th Birthday Week Release Train&lt;/h3&gt;
+
+	&lt;p&gt;
+		Today Java turned 25. Oracle dedicated a &lt;a
+			href=&quot;https://www.oracle.com/de/java/moved-by-java/&quot;&gt;Moved by Java&lt;/a&gt; anniversary page and kicked off the #MovedbyJava campaign on social media.&lt;br&gt;
+		As JSR 354 Maintenance Leads we celebrated the 25th birthday of Java and the 5th anniversary of the Final Release ten days ago our own way by delivering a whole &lt;b&gt;release train&lt;/b&gt;:		
+		&lt;ul&gt;
+  			&lt;li&gt;&lt;a href=&quot;https://github.com/JavaMoney/jsr354-api/releases/tag/1.1&quot;&gt;Money API 1.1&lt;/a&gt;&lt;/li&gt;
+  			&lt;li&gt;&lt;a href=&quot;https://github.com/JavaMoney/javamoney-parent/releases/tag/1.1&quot;&gt;JavaMoney Parent 1.1&lt;/a&gt;&lt;/li&gt;
+  			&lt;li&gt;&lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/releases/tag/1.4&quot;&gt;Moneta 1.4&lt;/a&gt;&lt;/li&gt;
+  			&lt;li&gt;&lt;a href=&quot;https://github.com/JavaMoney/jsr354-tck/releases/tag/1.1&quot;&gt;TCK 1.1&lt;/a&gt;&lt;/li&gt;
+  			&lt;li&gt;&lt;a href=&quot;https://github.com/JavaMoney/javamoney-lib/releases/tag/1.1&quot;&gt;JavaMoney Library 1.1&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;		
+		Check the issues resolved by the MR1 &lt;a href=&quot;https://github.com/JavaMoney/jsr354-api/milestone/1&quot;&gt;API&lt;/a&gt; and &lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/milestone/4&quot;&gt;RI&lt;/a&gt; on GitHub.&lt;br&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		While they are not parts of the actual JSR, the backports:		
+		&lt;ul&gt;
+  			&lt;li&gt;&lt;a href=&quot;https://github.com/JavaMoney/jsr354-api-bp/releases/tag/1.0.4&quot;&gt;API BP 1.0.4&lt;/a&gt;&lt;/li&gt;
+  			&lt;li&gt;&lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri-bp/releases/tag/1.4&quot;&gt;Moneta BP 1.4&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	    also got updates.
+	&lt;/p&gt;
+	&lt;p&gt;
+	To the next 5, 10 or 25 years of Java and JavaMoney.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
+    <item>
+      <title>JSR 354 Final 5th Anniversary</title>
+      <link>http://javamoney.orgblog/2020/5yearsfinal.html</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2020/5yearsfinal.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;5th Anniversary of the Final Release&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;JSR 354 Final 5th Anniversary&lt;/h3&gt;
+
+	&lt;p&gt;
+		Today marks the fifth anniversary of the JSR 354 &lt;a
+			href=&quot;https://jcp.org/aboutJava/communityprocess/final/jsr354/index.html&quot;&gt;Final Release&lt;/a&gt;.&lt;br&gt;
+		The same year, Java will be turning 25 precisely 10 days from now.&lt;br&gt;
+		After The Maintenance Release 1 of JSR 354 was code complete on &lt;a href=&quot;may354.html&quot;&gt;Star Wars Day&lt;/a&gt; we expect to submit the MR1 to the JCP in the next couple of days.&lt;br&gt;
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
+    <item>
+      <title>May the 354th be with You</title>
+      <link>http://javamoney.orgblog/2020/may354.html</link>
+      <pubDate>Mon, 4 May 2020 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2020/may354.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;May the 354th be with You&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;Maintenance Release Code Complete on Star Wars Day&lt;/h3&gt;
+	
+	&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/7b/May_the_4th_be_with_you_%28Star_Wars_Day%29.gif&quot; alt=&quot;Star Wars Day&quot; width=&quot;440&quot; height=&quot;440&quot;&gt;
+
+	&lt;p&gt;
+		Today the Maintenance Release 1 of JSR 354 was tagged code complete on &lt;a
+			href=&quot;https://en.wikipedia.org/wiki/Star_Wars_Day&quot;&gt;Star Wars Day&lt;/a&gt;.&lt;br&gt;		
+		Check the &lt;a href=&quot;https://github.com/JavaMoney/jsr354-api/milestone/1&quot;&gt;issues resolved by MR1&lt;/a&gt; on GitHub.&lt;br&gt;
+		We still have to clarify a few things like the PGP keys to use for Sonatype/MavenCentral, but within a couple of days we should also have them on Sonatype Nexus after we deployed them on &lt;a href=&quot;https://dl.bintray.com/javamoney/maven/&quot;&gt;Bintray&lt;/a&gt;. 
+	&lt;/p&gt;&lt;p&gt;
+	Thanks everyone who made this possible.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
     <item>
       <title>DevoXX BE 2019</title>
       <link>http://javamoney.orgblog/2019/devoxx19.html</link>
