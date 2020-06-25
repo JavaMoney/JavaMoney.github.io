@@ -6,9 +6,41 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Sun, 24 May 2020 02:52:39 +0200</pubDate>
-    <lastBuildDate>Sun, 24 May 2020 02:52:39 +0200</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2020 00:43:14 +0200</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2020 00:43:14 +0200</lastBuildDate>
 
+    <item>
+      <title>Maintenance Release 1</title>
+      <link>http://javamoney.orgblog/2020/mr1.html</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2020/mr1.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Maintenance Release 1&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;MR 1&lt;/h3&gt;
+
+	&lt;p&gt;
+		JSR 354 just passed &lt;b&gt;Maintenance Review Ballot&lt;/b&gt; by the JCP EC. Check out the &lt;a
+			href=&quot;https://jcp.org/en/jsr/results?id=6240&quot;&gt;results&lt;/a&gt;.&lt;br&gt;
+		Maintenance Release 1 of JSR 354 will be made available soon on jcp.org after it&apos;s already been to popular Maven repositories.&lt;br&gt;
+		Check for it e.g. via MavenCentral &lt;a href=&quot;https://search.maven.org/artifact/javax.money/money-api/1.1/jar&quot;&gt;Repository Search&lt;/a&gt;.&lt;br&gt;
+	&lt;/p&gt;&lt;p&gt;
+	Thanks everyone who helped with JSR 354 and the wider JavaMoney project.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
     <item>
       <title>Java 25th Birthday Week</title>
       <link>http://javamoney.orgblog/2020/movedbyjava.html</link>
