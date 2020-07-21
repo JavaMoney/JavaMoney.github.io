@@ -1,0 +1,1 @@
+"C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-hotspot\bin\javadoc.exe" -Xdoclint:none @options @packages @argfile

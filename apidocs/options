@@ -1,0 +1,25 @@
+-encoding
+'UTF-8'
+-protected
+-source
+'1.9'
+-sourcepath
+'C:/Users/werner/git/jsr354-api/src/main/java;C:/Users/werner/git/jsr354-api/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2012&#x2013;2020 <a href="http://javamoney.org">JSR 354 - Expert Group</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/werner/git/jsr354-api/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'JSR 354 (Money and Currency API) 1.1.1-SNAPSHOT API'
+-keywords
+-linkoffline
+'https://docs.oracle.com/javase/9/docs/api' 'C:/Users/werner/git/jsr354-api/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'JSR 354 (Money and Currency API) 1.1.1-SNAPSHOT API'

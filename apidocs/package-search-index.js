@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"m":"java.money","l":"javax.money"},{"m":"java.money","l":"javax.money.convert"},{"m":"java.money","l":"javax.money.format"},{"m":"java.money","l":"javax.money.spi"}]
