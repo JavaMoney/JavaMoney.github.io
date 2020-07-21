@@ -6,8 +6,8 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Wed, 22 Jul 2020 01:23:12 +0200</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2020 01:23:12 +0200</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2020 01:25:46 +0200</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2020 01:25:46 +0200</lastBuildDate>
 
     <item>
       <title>Moneta Release 1.4.1</title>
@@ -35,7 +35,7 @@
 		On this date, the 76th anniversary of the attempted &quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Operation_Valkyrie&quot;&gt;Operation Valkyrie&lt;/a&gt;&quot; coup by &lt;a href=&quot;https://en.wikipedia.org/wiki/Claus_von_Stauffenberg&quot;&gt;Claus von Stauffenberg&lt;/a&gt; and his co-conspirators we dedicate this release to their courage, sacrifice and memory.&lt;br&gt;		
 		
 		The release fixed a problem with the JPMS (Jigsaw), ensures compatibility with Java 14 and added a few minor improvements, for a complete list see  &lt;a
-			href=&quot;https://github.com/JavaMoney/jsr354-ri/milestone/6?closed=1&quot;&gt;1.3 Milestone&lt;/a&gt;. And check the release tag &lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/releases/tag/1.4.1&quot;&gt;1.4.1&lt;/a&gt; in the GitHub repository.&lt;br&gt;
+			href=&quot;https://github.com/JavaMoney/jsr354-ri/milestone/6?closed=1&quot;&gt;1.4.1 Milestone&lt;/a&gt;. And check the release tag &lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/releases/tag/1.4.1&quot;&gt;1.4.1&lt;/a&gt; in the GitHub repository.&lt;br&gt;
 	&lt;/p&gt;&lt;p&gt;
 	Thanks everyone who helped with this release.
 	&lt;/p&gt;
