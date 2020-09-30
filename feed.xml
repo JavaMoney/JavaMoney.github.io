@@ -6,8 +6,8 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Mi., 30 Sep. 2020 14:47:04 +0200</pubDate>
-    <lastBuildDate>Mi., 30 Sep. 2020 14:47:04 +0200</lastBuildDate>
+    <pubDate>Mi., 30 Sep. 2020 14:51:19 +0200</pubDate>
+    <lastBuildDate>Mi., 30 Sep. 2020 14:51:19 +0200</lastBuildDate>
 
     <item>
       <title>Moneta Release 1.4.2</title>
@@ -26,9 +26,6 @@
 
 &lt;section id=&quot;main_content&quot;&gt;
 	&lt;h3&gt;1.4 Update 2&lt;/h3&gt;
-
-	&lt;img src=&quot;/img/371px-Valkyrie.svg.png&quot; alt=&quot;Valkyrie&quot; width=&quot;371&quot; height=&quot;70&quot;&gt;
-
 
 	&lt;p&gt;
 		Update Release 2 of JSR 354 RI 1.4 was released today.&lt;br&gt;
