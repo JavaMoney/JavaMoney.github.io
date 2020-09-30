@@ -6,13 +6,46 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Wed, 22 Jul 2020 02:17:13 +0200</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2020 02:17:13 +0200</lastBuildDate>
+    <pubDate>Mi., 30 Sep. 2020 14:47:04 +0200</pubDate>
+    <lastBuildDate>Mi., 30 Sep. 2020 14:47:04 +0200</lastBuildDate>
 
+    <item>
+      <title>Moneta Release 1.4.2</title>
+      <link>http://javamoney.orgblog/2020/moneta142.html</link>
+      <pubDate>Mo., 27 Juli 2020 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2020/moneta142.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Release 1.4.2&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;1.4 Update 2&lt;/h3&gt;
+
+	&lt;img src=&quot;/img/371px-Valkyrie.svg.png&quot; alt=&quot;Valkyrie&quot; width=&quot;371&quot; height=&quot;70&quot;&gt;
+
+
+	&lt;p&gt;
+		Update Release 2 of JSR 354 RI 1.4 was released today.&lt;br&gt;
+		
+		The release fixed problem with the configuration and improved the monetary context, see  &lt;a
+			href=&quot;https://github.com/JavaMoney/jsr354-ri/milestone/7?closed=1&quot;&gt;1.4.2 Milestone&lt;/a&gt;. And check the release tag &lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/releases/tag/1.4.2&quot;&gt;1.4.2&lt;/a&gt; in the GitHub repository.&lt;br&gt;
+	&lt;/p&gt;&lt;p&gt;
+	Thanks everyone who helped with this release.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+	</description>
+    </item>
     <item>
       <title>Moneta Release 1.4.1</title>
       <link>http://javamoney.orgblog/2020/moneta141.html</link>
-      <pubDate>Mon, 20 Jul 2020 00:00:00 +0200</pubDate>
+      <pubDate>Mo., 20 Juli 2020 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2020/moneta141.html</guid>
       	<description>
 	
@@ -46,7 +79,7 @@
     <item>
       <title>Maintenance Release 1</title>
       <link>http://javamoney.orgblog/2020/mr1.html</link>
-      <pubDate>Tue, 16 Jun 2020 00:00:00 +0200</pubDate>
+      <pubDate>Di., 16 Juni 2020 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2020/mr1.html</guid>
       	<description>
 	
@@ -78,7 +111,7 @@
     <item>
       <title>Java 25th Birthday Week</title>
       <link>http://javamoney.orgblog/2020/movedbyjava.html</link>
-      <pubDate>Sat, 23 May 2020 00:00:00 +0200</pubDate>
+      <pubDate>Sa., 23 Mai 2020 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2020/movedbyjava.html</guid>
       	<description>
 	
@@ -126,7 +159,7 @@
     <item>
       <title>JSR 354 Final 5th Anniversary</title>
       <link>http://javamoney.orgblog/2020/5yearsfinal.html</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0200</pubDate>
+      <pubDate>Mi., 13 Mai 2020 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2020/5yearsfinal.html</guid>
       	<description>
 	
@@ -156,7 +189,7 @@
     <item>
       <title>May the 354th be with You</title>
       <link>http://javamoney.orgblog/2020/may354.html</link>
-      <pubDate>Mon, 4 May 2020 00:00:00 +0200</pubDate>
+      <pubDate>Mo., 4 Mai 2020 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2020/may354.html</guid>
       	<description>
 	
@@ -190,7 +223,7 @@
     <item>
       <title>DevoXX BE 2019</title>
       <link>http://javamoney.orgblog/2019/devoxx19.html</link>
-      <pubDate>Tue, 5 Nov 2019 00:00:00 +0100</pubDate>
+      <pubDate>Di., 5 Nov. 2019 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2019/devoxx19.html</guid>
       	<description>
 	
@@ -217,9 +250,38 @@
 	</description>
     </item>
     <item>
+      <title>JCON 2019</title>
+      <link>http://javamoney.orgblog/2019/jcon19.html</link>
+      <pubDate>Do., 26 Sep. 2019 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2019/jcon19.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;JCON 2019&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;JSR 354 at JCON 2019&lt;/h3&gt;
+
+	&lt;p&gt;
+		Werner and Anatole held a session about JSR 354 on the last day of &lt;a
+			href=&quot;https://jcon.one/&quot;&gt;JCON 2019&lt;/a&gt;.&lt;br&gt;
+		&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5vdhdFQczHY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+	&lt;/br&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
+    <item>
       <title>Transfer Ballot</title>
       <link>http://javamoney.orgblog/2018/transfer.html</link>
-      <pubDate>Mon, 5 Nov 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mo., 5 Nov. 2018 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2018/transfer.html</guid>
       	<description>
 	
@@ -252,7 +314,7 @@
     <item>
       <title>Moneta Release 1.3</title>
       <link>http://javamoney.orgblog/2018/moneta13.html</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0200</pubDate>
+      <pubDate>Fr., 13 Juli 2018 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2018/moneta13.html</guid>
       	<description>
 	
@@ -282,7 +344,7 @@
     <item>
       <title>PSD2 XS2A</title>
       <link>http://javamoney.orgblog/2018/xs2a.html</link>
-      <pubDate>Tue, 5 Jun 2018 00:00:00 +0200</pubDate>
+      <pubDate>Di., 5 Juni 2018 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2018/xs2a.html</guid>
       	<description>
 	
@@ -310,7 +372,7 @@
     <item>
       <title>API Release 1.0.3</title>
       <link>http://javamoney.orgblog/2018/api103.html</link>
-      <pubDate>Wed, 18 Apr 2018 00:00:00 +0200</pubDate>
+      <pubDate>Mi., 18 Apr. 2018 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2018/api103.html</guid>
       	<description>
 	
@@ -341,7 +403,7 @@
     <item>
       <title>Moneta Release 1.2</title>
       <link>http://javamoney.orgblog/2018/moneta12.html</link>
-      <pubDate>Fri, 13 Apr 2018 00:00:00 +0200</pubDate>
+      <pubDate>Fr., 13 Apr. 2018 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2018/moneta12.html</guid>
       	<description>
 	
@@ -372,7 +434,7 @@
     <item>
       <title>API Release 1.0.2</title>
       <link>http://javamoney.orgblog/2018/api102.html</link>
-      <pubDate>Tue, 10 Apr 2018 00:00:00 +0200</pubDate>
+      <pubDate>Di., 10 Apr. 2018 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2018/api102.html</guid>
       	<description>
 	
@@ -403,7 +465,7 @@
     <item>
       <title>Moneta Release 1.1</title>
       <link>http://javamoney.orgblog/2016/moneta11.html</link>
-      <pubDate>Fri, 20 May 2016 00:00:00 +0200</pubDate>
+      <pubDate>Fr., 20 Mai 2016 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2016/moneta11.html</guid>
       	<description>
 	
@@ -434,7 +496,7 @@
     <item>
       <title>CloJUG April 2016</title>
       <link>http://javamoney.orgblog/2016/clojug16.html</link>
-      <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>So., 17 Apr. 2016 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2016/clojug16.html</guid>
       	<description>
 	
@@ -461,7 +523,7 @@
     <item>
       <title>API Release 1.0.1</title>
       <link>http://javamoney.orgblog/2016/api101.html</link>
-      <pubDate>Tue, 16 Feb 2016 00:00:00 +0100</pubDate>
+      <pubDate>Di., 16 Feb. 2016 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2016/api101.html</guid>
       	<description>
 	
@@ -492,7 +554,7 @@
     <item>
       <title>Final Release</title>
       <link>http://javamoney.orgblog/2015/final.html</link>
-      <pubDate>Tue, 12 May 2015 00:00:00 +0200</pubDate>
+      <pubDate>Di., 12 Mai 2015 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2015/final.html</guid>
       	<description>
 	
@@ -524,7 +586,7 @@
     <item>
       <title>Star Spec Lead</title>
       <link>http://javamoney.orgblog/2015/star-spec-lead.html</link>
-      <pubDate>Tue, 5 May 2015 00:00:00 +0200</pubDate>
+      <pubDate>Di., 5 Mai 2015 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2015/star-spec-lead.html</guid>
       	<description>
 	
@@ -550,7 +612,7 @@
     <item>
       <title>Proposed Final Draft</title>
       <link>http://javamoney.orgblog/2015/pfd.html</link>
-      <pubDate>Fri, 13 Mar 2015 00:00:00 +0100</pubDate>
+      <pubDate>Fr., 13 März 2015 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2015/pfd.html</guid>
       	<description>
 	
@@ -577,7 +639,7 @@
     <item>
       <title>DevoXX 2014</title>
       <link>http://javamoney.orgblog/2014/devoxx14.html</link>
-      <pubDate>Wed, 12 Nov 2014 00:00:00 +0100</pubDate>
+      <pubDate>Mi., 12 Nov. 2014 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2014/devoxx14.html</guid>
       	<description>
 	
@@ -605,7 +667,7 @@
     <item>
       <title>JavaOne 2014</title>
       <link>http://javamoney.orgblog/2014/javaone14.html</link>
-      <pubDate>Tue, 30 Sep 2014 00:00:00 +0200</pubDate>
+      <pubDate>Di., 30 Sep. 2014 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2014/javaone14.html</guid>
       	<description>
 	
@@ -640,7 +702,7 @@
     <item>
       <title>Public Review 2</title>
       <link>http://javamoney.orgblog/2014/pr2.html</link>
-      <pubDate>Wed, 26 Mar 2014 00:00:00 +0100</pubDate>
+      <pubDate>Mi., 26 März 2014 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2014/pr2.html</guid>
       	<description>
 	
@@ -669,7 +731,7 @@
     <item>
       <title>Gimme Shelter</title>
       <link>http://javamoney.orgblog/2013/gimmeshelter.html</link>
-      <pubDate>Sun, 24 Nov 2013 00:00:00 +0100</pubDate>
+      <pubDate>So., 24 Nov. 2013 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2013/gimmeshelter.html</guid>
       	<description>
 	
@@ -698,7 +760,7 @@
     <item>
       <title>Public Draft</title>
       <link>http://javamoney.orgblog/2013/pdr.html</link>
-      <pubDate>Thu, 24 Oct 2013 00:00:00 +0200</pubDate>
+      <pubDate>Do., 24 Okt. 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2013/pdr.html</guid>
       	<description>
 	
@@ -727,7 +789,7 @@
     <item>
       <title>Early Draft</title>
       <link>http://javamoney.orgblog/2013/edr.html</link>
-      <pubDate>Wed, 1 May 2013 00:00:00 +0200</pubDate>
+      <pubDate>Mi., 1 Mai 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2013/edr.html</guid>
       	<description>
 	
