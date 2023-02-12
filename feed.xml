@@ -6,9 +6,35 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Mi., 30 Sep. 2020 14:51:19 +0200</pubDate>
-    <lastBuildDate>Mi., 30 Sep. 2020 14:51:19 +0200</lastBuildDate>
+    <pubDate>So., 12 Feb. 2023 16:08:30 +0100</pubDate>
+    <lastBuildDate>So., 12 Feb. 2023 16:08:30 +0100</lastBuildDate>
 
+    <item>
+      <title>JSR 354 EG turns 10</title>
+      <link>http://javamoney.orgblog/2022/10yjsr354formation.html</link>
+      <pubDate>Sa., 21 Mai 2022 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2022/10yjsr354formation.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;10 Years JSR 354 EG Formation&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;10th Birthday of JSR 354 Formation&lt;/h3&gt;
+
+	&lt;p&gt;
+		Today the EG Formation of JSR 354 has been 10 years ago. Following the &lt;a href=&quot;https://jcp.org/en/jsr/results?id=5295&quot;&gt;JSR Review Ballot&lt;/a&gt;.&lt;br&gt;
+	To the next decades of JavaMoney.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+	</description>
+    </item>
     <item>
       <title>Moneta Release 1.4.2</title>
       <link>http://javamoney.orgblog/2020/moneta142.html</link>
@@ -249,7 +275,7 @@
     <item>
       <title>JCON 2019</title>
       <link>http://javamoney.orgblog/2019/jcon19.html</link>
-      <pubDate>Do., 26 Sep. 2019 00:00:00 +0200</pubDate>
+      <pubDate>Do., 26 Sept. 2019 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2019/jcon19.html</guid>
       	<description>
 	
@@ -664,7 +690,7 @@
     <item>
       <title>JavaOne 2014</title>
       <link>http://javamoney.orgblog/2014/javaone14.html</link>
-      <pubDate>Di., 30 Sep. 2014 00:00:00 +0200</pubDate>
+      <pubDate>Di., 30 Sept. 2014 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2014/javaone14.html</guid>
       	<description>
 	
