@@ -6,8 +6,8 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Do., 25 Jan. 2024 12:18:13 +0100</pubDate>
-    <lastBuildDate>Do., 25 Jan. 2024 12:18:13 +0100</lastBuildDate>
+    <pubDate>Fr., 26 Jan. 2024 13:24:02 +0100</pubDate>
+    <lastBuildDate>Fr., 26 Jan. 2024 13:24:02 +0100</lastBuildDate>
 
     <item>
       <title>Moneta Release 1.4.3</title>
@@ -267,13 +267,11 @@
 		Today the Maintenance Release 1 of JSR 354 was tagged code complete on &lt;a
 			href=&quot;https://en.wikipedia.org/wiki/Star_Wars_Day&quot;&gt;Star Wars Day&lt;/a&gt;.&lt;br&gt;		
 		Check the &lt;a href=&quot;https://github.com/orgs/JavaMoney/projects/1&quot;&gt;issues resolved by MR1&lt;/a&gt; on GitHub.&lt;br&gt;
-		We still have to clarify a few things like the PGP keys to use for Sonatype/MavenCentral, but within a couple of days we should also have them on Sonatype Nexus after we deployed them on &lt;a href=&quot;https://dl.bintray.com/javamoney/maven/&quot;&gt;Bintray&lt;/a&gt;. 
+		We still have to clarify a few things like the PGP keys to use for Sonatype/MavenCentral, but within a couple of days we should also have them on Sonatype Nexus after we deployed them on Bintray. 
 	&lt;/p&gt;&lt;p&gt;
 	Thanks everyone who made this possible.
 	&lt;/p&gt;
 &lt;/section&gt;
-
-
 
 	</description>
     </item>
