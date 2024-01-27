@@ -6,9 +6,42 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Fr., 26 Jan. 2024 13:29:34 +0100</pubDate>
-    <lastBuildDate>Fr., 26 Jan. 2024 13:29:34 +0100</lastBuildDate>
+    <pubDate>Sa., 27 Jan. 2024 22:01:33 +0100</pubDate>
+    <lastBuildDate>Sa., 27 Jan. 2024 22:01:33 +0100</lastBuildDate>
 
+    <item>
+      <title>Moneta Release 1.4.4</title>
+      <link>http://javamoney.orgblog/2024/moneta144.html</link>
+      <pubDate>Sa., 27 Jan. 2024 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">blog/2024/moneta144.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;Release 1.4.4&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;1.4 Update 4&lt;/h3&gt;
+
+	&lt;p&gt;
+		Update 4 of JSR 354 RI 1.4 was released today.&lt;br&gt;
+		It is dedicated to the &lt;a href=&quot;https://en.wikipedia.org/wiki/International_Holocaust_Remembrance_Day&quot;&gt;International Holocaust Remembrance Day&lt;/a&gt;.&lt;br&gt;		
+		
+		This release fixed a critical problem with the &lt;b&gt;IMF Exchange Rate Provider&lt;/b&gt;. Please update if you want to use both ECB and IMF exchange rates!&lt;br&gt;
+		For a complete list see  &lt;a
+			href=&quot;https://github.com/JavaMoney/jsr354-ri/milestone/10?closed=1&quot;&gt;1.4.4 Milestone&lt;/a&gt;. And check the release tag &lt;a href=&quot;https://github.com/JavaMoney/jsr354-ri/releases/tag/1.4.4&quot;&gt;1.4.4&lt;/a&gt; in the GitHub repository.&lt;br&gt;
+
+	&lt;/p&gt;&lt;p&gt;
+	Thanks everyone who helped with this release.
+	&lt;/p&gt;
+&lt;/section&gt;
+
+	</description>
+    </item>
     <item>
       <title>Moneta Release 1.4.3</title>
       <link>http://javamoney.orgblog/2024/moneta143.html</link>
