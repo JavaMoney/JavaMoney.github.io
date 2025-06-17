@@ -6,9 +6,42 @@
     <atom:link href="http://javamoney.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Java Money and Currency</description>
     <language>en-gb</language>
-    <pubDate>Sat, 22 Mar 2025 18:40:30 +0100</pubDate>
-    <lastBuildDate>Sat, 22 Mar 2025 18:40:30 +0100</lastBuildDate>
+    <pubDate>Tue, 17 Jun 2025 14:07:57 +0200</pubDate>
+    <lastBuildDate>Tue, 17 Jun 2025 14:07:57 +0200</lastBuildDate>
 
+    <item>
+      <title>JSR 354 Final 10th Anniversary</title>
+      <link>http://javamoney.orgblog/2025/10yearsfinal.html</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">blog/2025/10yearsfinal.html</guid>
+      	<description>
+	
+
+&lt;header&gt;
+	&lt;h1&gt;10th Anniversary of the Final Release&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;downloads&quot; class=&quot;clearfix&quot;&gt;&lt;/section&gt;
+
+
+&lt;section id=&quot;main_content&quot;&gt;
+	&lt;h3&gt;JSR 354 Final 10th Anniversary&lt;/h3&gt;
+
+	&lt;p&gt;
+		Today marks the tenth anniversary of the JSR 354 &lt;a
+			href=&quot;https://jcp.org/aboutJava/communityprocess/final/jsr354/index.html&quot;&gt;Final Release&lt;/a&gt;.&lt;br&gt;
+		The same year, Java will be turning 30, 10 days from now.&lt;br&gt;
+
+		Maintenance lead Werner and EG member Simon met two days later at &lt;a
+			href=&quot;https://2025.europe.jcon.one/&quot;&gt;JCON Europe 2025&lt;/a&gt;, which also celebrates its tenth anniversary and 30 years of Java, to toast on the occasion with a cup of coffee.
+		&lt;img src=&quot;img/IMG_2855_s.jpg&quot;&gt;&lt;/td&gt;
+	&lt;/p&gt;
+&lt;/section&gt;
+
+
+
+	</description>
+    </item>
     <item>
       <title>Moneta Release 1.4.5</title>
       <link>http://javamoney.orgblog/2025/moneta145.html</link>
